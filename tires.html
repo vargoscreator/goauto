@@ -1,0 +1,1012 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Шини</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/filter-product.css">
+</head>
+<body class="body">
+    
+
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="header__logo">
+                    <div class="header__burger">
+                        <span></span>
+                    </div>
+                    <a class="header__logo-name" href="index.html">GOAUTO.UA</a>
+                </div>
+                <div class="header__menu">
+                    <div class="header__menu-block--top">
+                        <div class="header__menu-item">
+                            <a class="header__menu-link active" href="index.html">Головна</a>
+                        </div>
+                        <div class="header__menu-item">
+                            <a class="header__menu-link" href="tires.html">Шини</a>
+                        </div>
+                        <div class="header__menu-item">
+                            <a class="header__menu-link" href="discs.html">Диски</a>
+                        </div>
+                        <div class="header__menu-item">
+                            <a class="header__menu-link" href="delivery-methods.html">Доставка та оплата</a>
+                        </div>
+                        <div class="header__menu-item header__menu-mobile">
+                            <p class="header__menu-link popup-btn">Консультація</p>
+                        </div>
+                        <div class="header__menu-item header__menu-mobile header__mobile-block--name">
+                            <p class="header__menu-link header__link-name active">Компанія</p>
+                            <div class="header__menu-mobile--block">
+                                <a class="header__mobile-link" href="contacts.html">Контакти</a>
+                                <a class="header__mobile-link" href="tire-fitting.html">Шиномонтаж</a>
+                                <a class="header__mobile-link" href="painting-discs.html">Фарбування дисків</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header__menu-item header__menu-item--block header__menu-no-mobile">
+                        <p class="header__menu-link header__menu-block--name">Клієнтам
+                            <svg xmlns="http://www.w3.org/2000/svg" width="8" height="5" viewBox="0 0 8 5" fill="none">
+                                <path d="M1.20493 0.5H6.79494C6.89382 0.500415 6.99036 0.530142 7.07236 0.585423C7.15435 0.640705 7.21811 0.719058 7.25557 0.810574C7.29303 0.90209 7.30252 1.00266 7.28282 1.09957C7.26313 1.19647 7.21515 1.28536 7.14494 1.355L4.35494 4.145C4.30845 4.19186 4.25315 4.22906 4.19222 4.25445C4.13129 4.27983 4.06594 4.2929 3.99994 4.2929C3.93393 4.2929 3.86858 4.27983 3.80765 4.25445C3.74672 4.22906 3.69142 4.19186 3.64494 4.145L0.854935 1.355C0.784724 1.28536 0.736739 1.19647 0.717046 1.09957C0.697354 1.00266 0.706838 0.90209 0.744301 0.810574C0.781764 0.719058 0.845522 0.640705 0.927514 0.585423C1.00951 0.530142 1.10605 0.500415 1.20493 0.5Z" fill="#111111"/>
+                            </svg>
+                        </p>
+                        <div class="header__menu-block">
+                            <div class="header__block-item">
+                                <a class="header__menu-link" href="tire-fitting.html">Шиномонтаж</a>
+                            </div>
+                            <div class="header__block-item">
+                                <a class="header__menu-link" href="painting-discs.html">Фарбування дисків</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header__menu-item header__menu-no-mobile">
+                        <a class="header__menu-link" href="contacts.html">Контакти</a>
+                    </div>
+
+                    <div class="header__menu-contants header__menu-mobile">
+                        <a class="header__contant-phone" href="tel:+380980808308">(098) 080-83-08</a>
+                        <p class="header__contant-schedule">пн-пт с 9:00 до 18:00</p>
+                        <div class="header__contant-social">
+                            <p class="header__social-name">Ми у соц.мережах:</p>
+                            <div class="header__social-block">
+                                <a class="header__social-item" href="#">
+                                    <img class="header__social-img" src="img/icon/instagram.svg" alt="instagram">
+                                </a>
+                                <a class="header__social-item" href="#">
+                                    <img class="header__social-img" src="img/icon/telegram.svg" alt="telegram">
+                                </a>
+                                <a class="header__social-item" href="#">
+                                    <img class="header__social-img" src="img/icon/viber.svg" alt="viber">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header__end">
+                    <div class="header__end-block">
+                        <a class="header__end-phone" href="tel:+380980808308">(098) 080-83-08</a>
+                        <button class="header__btn-advice btn-hover">Замовити консультацію</button>
+                    </div>
+                    <a class="header__end-basket" href="basket.html">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
+                            <g clip-path="url(#clip0_297_6555)">
+                              <path d="M16.0884 2.88787C15.8891 2.64877 15.6397 2.45646 15.3578 2.32462C15.0758 2.19277 14.7683 2.12462 14.4571 2.125H3.00475L2.975 1.87637C2.91412 1.35959 2.66573 0.883102 2.27693 0.537255C1.88813 0.191408 1.38594 0.000242104 0.865583 0L0.708333 0C0.520472 0 0.340304 0.0746278 0.207466 0.207466C0.0746278 0.340304 0 0.520472 0 0.708333C0 0.896195 0.0746278 1.07636 0.207466 1.2092C0.340304 1.34204 0.520472 1.41667 0.708333 1.41667H0.865583C1.03908 1.41669 1.20653 1.48039 1.33618 1.59567C1.46583 1.71096 1.54866 1.86982 1.56896 2.04212L2.54362 10.3296C2.64481 11.1915 3.05892 11.9863 3.70735 12.563C4.35578 13.1398 5.1934 13.4584 6.06121 13.4583H13.4583C13.6462 13.4583 13.8264 13.3837 13.9592 13.2509C14.092 13.118 14.1667 12.9379 14.1667 12.75C14.1667 12.5621 14.092 12.382 13.9592 12.2491C13.8264 12.1163 13.6462 12.0417 13.4583 12.0417H6.06121C5.62279 12.0404 5.19548 11.9036 4.83787 11.65C4.48026 11.3964 4.20985 11.0383 4.06371 10.625H12.507C13.3374 10.625 14.1414 10.3333 14.7785 9.80081C15.4157 9.26829 15.8454 8.52883 15.9927 7.71162L16.5488 4.62754C16.6043 4.32155 16.5918 4.00709 16.5123 3.70645C16.4327 3.40581 16.288 3.12635 16.0884 2.88787Z" fill="#111111"/>
+                              <path d="M4.95866 17.0013C5.74106 17.0013 6.37533 16.367 6.37533 15.5846C6.37533 14.8022 5.74106 14.168 4.95866 14.168C4.17626 14.168 3.54199 14.8022 3.54199 15.5846C3.54199 16.367 4.17626 17.0013 4.95866 17.0013Z" fill="#111111"/>
+                              <path d="M12.0417 17.0013C12.8241 17.0013 13.4583 16.367 13.4583 15.5846C13.4583 14.8022 12.8241 14.168 12.0417 14.168C11.2593 14.168 10.625 14.8022 10.625 15.5846C10.625 16.367 11.2593 17.0013 12.0417 17.0013Z" fill="#111111"/>
+                            </g>
+                            <defs>
+                              <clipPath id="clip0_297_6555">
+                                <rect width="17" height="17" fill="white"/>
+                              </clipPath>
+                            </defs>
+                        </svg>
+
+                        <p class="header__basket-number active">3</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <section class="main">
+        <div class="container">
+            <div class="main__inner">
+                <div class="main__links">
+                    <a class="main__link" href="index.html">Головна</a>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="6" height="6" viewBox="0 0 6 6" fill="none">
+                        <g clip-path="url(#clip0_297_1602)">
+                          <path d="M4.24985 2.99982C4.24985 3.23357 4.15885 3.45307 3.9936 3.61857L1.67085 5.96282C1.64635 5.98757 1.6141 5.99982 1.5821 5.99982C1.55035 5.99982 1.51835 5.98782 1.4941 5.96357C1.4451 5.91507 1.4446 5.83582 1.4931 5.78682L3.81635 3.44207C3.9351 3.32332 3.99985 3.16632 3.99985 2.99957C3.99985 2.83282 3.93485 2.67582 3.81685 2.55757L1.4931 0.212816C1.4446 0.163816 1.4451 0.0845663 1.4941 0.0360663C1.54285 -0.0126837 1.62235 -0.0116837 1.67085 0.0370663L3.9941 2.38182C4.15885 2.54657 4.24985 2.76632 4.24985 3.00007V2.99982Z" fill="#89939E"/>
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_297_1602">
+                            <rect width="6" height="6" fill="white"/>
+                          </clipPath>
+                        </defs>
+                    </svg>
+                    <a class="main__link active" href="tires.html">Шини</a>
+                </div>
+                
+                <h1 class="main__title">Шини</h1>
+                <div class="main__block">
+                    <form class="main__filters form-filter" action="#">
+                        <div class="main__filters-header">
+                            <h3 class="main__filters-name">Фільтри</h3>
+                            <div class="main__filters-close" onclick="showFilterMobile(this)">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none">
+                                    <g clip-path="url(#clip0_297_2948)">
+                                      <path d="M12.2962 10.9928L21.7316 1.55742C22.0833 1.19329 22.0733 0.612945 21.7091 0.26124C21.3539 -0.0818716 20.7907 -0.0818716 20.4354 0.26124L11 9.69666L1.56456 0.26124C1.2004 -0.0904656 0.620093 -0.0803677 0.268388 0.283756C-0.074724 0.638985 -0.074724 1.20219 0.268388 1.55742L9.7038 10.9928L0.268388 20.4282C-0.0894625 20.7862 -0.0894625 21.3665 0.268388 21.7244C0.626366 22.0823 1.20663 22.0823 1.56456 21.7244L11 12.289L20.4354 21.7244C20.7934 22.0823 21.3736 22.0823 21.7316 21.7244C22.0894 21.3664 22.0894 20.7862 21.7316 20.4282L12.2962 10.9928Z" fill="#111111"/>
+                                    </g>
+                                    <defs>
+                                      <clipPath id="clip0_297_2948">
+                                        <rect width="22" height="22" fill="white"/>
+                                      </clipPath>
+                                    </defs>
+                                  </svg>
+                            </div>
+                        </div>
+                        <div class="filters__block">
+                            <div class="filters__block-top">
+                                <p class="filters__block-name">Ви обрали:</p>
+                                <button class="filters__block-btn">Скинути</button>
+                            </div>
+                            <div class="filters__block-content"></div>
+                        </div>
+                        <div class="main__filters-block">
+                            <div class="filters__select-item filter-selector">
+                                <div class="filters__select-categories">Ширина</div>
+                                <div class="filters__select-categories--block filter-dropdown">
+                                    <div class="filters__select-categories--item">
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>150
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>150
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>150
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>150
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>150
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>150
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>150
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>150
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>150
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>150
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>150
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="filters__select-item filter-selector">
+                                <div class="filters__select-categories">Профіль</div>
+                                <div class="filters__select-categories--block filter-dropdown">
+                                    <div class="filters__select-categories--item">
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>150
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>150
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>150
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>150
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>150
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>150
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>150
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>150
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>150
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>150
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>150
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="filters__select-item filter-selector">
+                                <div class="filters__select-categories">Діаметр</div>
+                                <div class="filters__select-categories--block filter-dropdown">
+                                    <div class="filters__select-categories--item">
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>150
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>150
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>150
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>150
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>150
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>150
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>150
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>150
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>150
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>150
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>150
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main__filters-block">
+                            <p class="filters__select-name">Сезон</p>
+                            <div class="filters__select-box">
+                                <div class="filters__select-content">
+                                    <label class="filters__label">
+                                        <input type="checkbox" name="checkbox" class="filters__checkbox">
+                                        <span class="checkmark"></span>літні
+                                    </label>
+                                    <label class="filters__label">
+                                        <input type="checkbox" name="checkbox" id="checkbox11" class="filters__checkbox">
+                                        <span class="checkmark"></span>зимові
+                                    </label>
+                                    <label class="filters__label">
+                                        <input type="checkbox" name="checkbox" id="checkbox12" class="filters__checkbox">
+                                        <span class="checkmark"></span>всесезонні
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main__filters-block">
+                            <p class="filters__select-name">Бренд</p>
+                            <div class="filters__select-box">
+                                <div class="filters__select-content">
+                                    <label class="filters__label">
+                                        <input type="checkbox" name="checkbox" class="filters__checkbox">
+                                        <span class="checkmark"></span>Michelin
+                                    </label>
+                                    <label class="filters__label">
+                                        <input type="checkbox" name="checkbox" class="filters__checkbox">
+                                        <span class="checkmark"></span>Michelin
+                                    </label>
+                                    <label class="filters__label">
+                                        <input type="checkbox" name="checkbox" class="filters__checkbox">
+                                        <span class="checkmark"></span>Michelin
+                                    </label>
+                                    <label class="filters__label">
+                                        <input type="checkbox" name="checkbox" class="filters__checkbox">
+                                        <span class="checkmark"></span>Michelin
+                                    </label>
+                                    <label class="filters__label">
+                                        <input type="checkbox" name="checkbox" class="filters__checkbox">
+                                        <span class="checkmark"></span>Michelin
+                                    </label>
+                                    <label class="filters__label">
+                                        <input type="checkbox" name="checkbox" class="filters__checkbox">
+                                        <span class="checkmark"></span>Michelin
+                                    </label>
+                                    <label class="filters__label">
+                                        <input type="checkbox" name="checkbox" class="filters__checkbox">
+                                        <span class="checkmark"></span>Michelin
+                                    </label>
+                                    <label class="filters__label">
+                                        <input type="checkbox" name="checkbox" class="filters__checkbox">
+                                        <span class="checkmark"></span>Michelin
+                                    </label>
+                                    <label class="filters__label">
+                                        <input type="checkbox" name="checkbox" class="filters__checkbox">
+                                        <span class="checkmark"></span>Michelin
+                                    </label>
+                                    <label class="filters__label">
+                                        <input type="checkbox" name="checkbox" class="filters__checkbox">
+                                        <span class="checkmark"></span>Michelin
+                                    </label>
+                                    <label class="filters__label">
+                                        <input type="checkbox" name="checkbox" class="filters__checkbox">
+                                        <span class="checkmark"></span>Michelin
+                                    </label>
+                                    <label class="filters__label">
+                                        <input type="checkbox" name="checkbox" class="filters__checkbox">
+                                        <span class="checkmark"></span>Michelin
+                                    </label>
+                                    <label class="filters__label">
+                                        <input type="checkbox" name="checkbox" class="filters__checkbox">
+                                        <span class="checkmark"></span>Michelin
+                                    </label>
+                                    <label class="filters__label">
+                                        <input type="checkbox" name="checkbox" class="filters__checkbox">
+                                        <span class="checkmark"></span>Michelin
+                                    </label>
+                                    <label class="filters__label">
+                                        <input type="checkbox" name="checkbox" class="filters__checkbox">
+                                        <span class="checkmark"></span>Michelin
+                                    </label>
+                                    <label class="filters__label">
+                                        <input type="checkbox" name="checkbox" class="filters__checkbox">
+                                        <span class="checkmark"></span>Michelin
+                                    </label>
+                                    <label class="filters__label">
+                                        <input type="checkbox" name="checkbox" class="filters__checkbox">
+                                        <span class="checkmark"></span>Michelin
+                                    </label>
+                                    <label class="filters__label">
+                                        <input type="checkbox" name="checkbox" class="filters__checkbox">
+                                        <span class="checkmark"></span>Michelin
+                                    </label>
+                                    <label class="filters__label">
+                                        <input type="checkbox" name="checkbox" class="filters__checkbox">
+                                        <span class="checkmark"></span>Michelin
+                                    </label>
+                                    <label class="filters__label">
+                                        <input type="checkbox" name="checkbox" class="filters__checkbox">
+                                        <span class="checkmark"></span>Michelin
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main__filters-block">
+                            <p class="filters__select-name">Ціна</p>
+                            <div class="filters__select-price">
+                                <input class="filters__select-price--input" id="price-from" type="number" placeholder="від 837">
+                                <input class="filters__select-price--input" id="price-to" type="number" placeholder="до 28923">
+                            </div>
+                        </div>
+                        <button class="main__filters-btn btn-hover" type="submit">Застосувати фільтри</button>
+                    </form>
+                    <div class="main__content">
+                        <div class="main__content-top">
+                            <div class="main__content-header">
+                                <p class="main__header-sort">Сортувати:</p>
+                                <div class="sort-block">
+                                    <button id="sort-cheap-to-expensive" class="main__sort-to active">Від дешевих до дорогих</button>
+                                    <button id="sort-expensive-to-cheap" class="main__sort-to">Від дорогих до дешевих</button>
+                                </div>
+                                <div class="sort-block-mob">
+                                    <div class="sort-mob">
+                                        <div class="sort-mob-name">Від дешевих до дорогих</div>
+                                        <div class="sort-mob-chose">
+                                            <div class="sort-mob-item active">Від дешевих до дорогих</div>
+                                            <div class="sort-mob-item">Від дорогих до дешевих</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                            <div class="main__content-header--mobile">
+                                <div class="main__content-mobile--item" onclick="showFilterMobile(this)">
+                                    <div class="main__content-mobile--icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                            <g clip-path="url(#clip0_297_2395)">
+                                              <path d="M0.75 3.56269H2.802C2.96298 4.15499 3.31438 4.67786 3.80199 5.05064C4.28961 5.42342 4.88634 5.62539 5.50012 5.62539C6.11391 5.62539 6.71064 5.42342 7.19826 5.05064C7.68587 4.67786 8.03727 4.15499 8.19825 3.56269H17.25C17.4489 3.56269 17.6397 3.48368 17.7803 3.34302C17.921 3.20237 18 3.01161 18 2.81269C18 2.61378 17.921 2.42302 17.7803 2.28236C17.6397 2.14171 17.4489 2.06269 17.25 2.06269H8.19825C8.03727 1.4704 7.68587 0.947523 7.19826 0.574746C6.71064 0.201968 6.11391 0 5.50012 0C4.88634 0 4.28961 0.201968 3.80199 0.574746C3.31438 0.947523 2.96298 1.4704 2.802 2.06269H0.75C0.551088 2.06269 0.360322 2.14171 0.21967 2.28236C0.0790176 2.42302 0 2.61378 0 2.81269C0 3.01161 0.0790176 3.20237 0.21967 3.34302C0.360322 3.48368 0.551088 3.56269 0.75 3.56269ZM5.49975 1.50019C5.75934 1.50019 6.0131 1.57717 6.22894 1.72139C6.44478 1.86561 6.613 2.07059 6.71234 2.31042C6.81168 2.55025 6.83767 2.81415 6.78703 3.06875C6.73639 3.32335 6.61138 3.55721 6.42783 3.74077C6.24427 3.92433 6.01041 4.04933 5.75581 4.09997C5.50121 4.15062 5.23731 4.12463 4.99748 4.02529C4.75765 3.92595 4.55267 3.75772 4.40845 3.54188C4.26423 3.32604 4.18725 3.07228 4.18725 2.81269C4.18765 2.46472 4.32606 2.13111 4.57211 1.88505C4.81817 1.639 5.15178 1.50059 5.49975 1.50019Z" fill="#717171"/>
+                                              <path d="M17.25 8.25093H15.198C15.0373 7.65849 14.686 7.13543 14.1985 6.7625C13.7109 6.38956 13.1141 6.1875 12.5002 6.1875C11.8864 6.1875 11.2896 6.38956 10.802 6.7625C10.3145 7.13543 9.96321 7.65849 9.8025 8.25093H0.75C0.551088 8.25093 0.360322 8.32994 0.21967 8.4706C0.0790176 8.61125 0 8.80201 0 9.00093C0 9.19984 0.0790176 9.3906 0.21967 9.53126C0.360322 9.67191 0.551088 9.75093 0.75 9.75093H9.8025C9.96321 10.3434 10.3145 10.8664 10.802 11.2394C11.2896 11.6123 11.8864 11.8144 12.5002 11.8144C13.1141 11.8144 13.7109 11.6123 14.1985 11.2394C14.686 10.8664 15.0373 10.3434 15.198 9.75093H17.25C17.4489 9.75093 17.6397 9.67191 17.7803 9.53126C17.921 9.3906 18 9.19984 18 9.00093C18 8.80201 17.921 8.61125 17.7803 8.4706C17.6397 8.32994 17.4489 8.25093 17.25 8.25093ZM12.5002 10.3134C12.2407 10.3134 11.9869 10.2364 11.7711 10.0922C11.5552 9.94801 11.387 9.74303 11.2877 9.5032C11.1883 9.26337 11.1623 8.99947 11.213 8.74487C11.2636 8.49027 11.3886 8.2564 11.5722 8.07285C11.7557 7.88929 11.9896 7.76429 12.2442 7.71364C12.4988 7.663 12.7627 7.68899 13.0025 7.78833C13.2424 7.88767 13.4473 8.0559 13.5916 8.27174C13.7358 8.48758 13.8127 8.74134 13.8127 9.00093C13.8124 9.3489 13.6739 9.68251 13.4279 9.92857C13.1818 10.1746 12.8482 10.313 12.5002 10.3134Z" fill="#717171"/>
+                                              <path d="M17.25 14.4377H8.19825C8.03727 13.8454 7.68587 13.3225 7.19826 12.9497C6.71064 12.577 6.11391 12.375 5.50012 12.375C4.88634 12.375 4.28961 12.577 3.80199 12.9497C3.31438 13.3225 2.96298 13.8454 2.802 14.4377H0.75C0.551088 14.4377 0.360322 14.5167 0.21967 14.6574C0.0790176 14.798 0 14.9888 0 15.1877C0 15.3866 0.0790176 15.5774 0.21967 15.718C0.360322 15.8587 0.551088 15.9377 0.75 15.9377H2.802C2.96298 16.53 3.31438 17.0529 3.80199 17.4256C4.28961 17.7984 4.88634 18.0004 5.50012 18.0004C6.11391 18.0004 6.71064 17.7984 7.19826 17.4256C7.68587 17.0529 8.03727 16.53 8.19825 15.9377H17.25C17.4489 15.9377 17.6397 15.8587 17.7803 15.718C17.921 15.5774 18 15.3866 18 15.1877C18 14.9888 17.921 14.798 17.7803 14.6574C17.6397 14.5167 17.4489 14.4377 17.25 14.4377ZM5.49975 16.5002C5.24016 16.5002 4.9864 16.4232 4.77056 16.279C4.55472 16.1348 4.3865 15.9298 4.28716 15.69C4.18782 15.4501 4.16183 15.1862 4.21247 14.9316C4.26311 14.677 4.38812 14.4432 4.57167 14.2596C4.75523 14.0761 4.98909 13.9511 5.24369 13.9004C5.49829 13.8498 5.76219 13.8758 6.00202 13.9751C6.24185 14.0744 6.44683 14.2427 6.59105 14.4585C6.73527 14.6743 6.81225 14.9281 6.81225 15.1877C6.81166 15.5356 6.67318 15.8691 6.42717 16.1151C6.18116 16.3611 5.84766 16.4996 5.49975 16.5002Z" fill="#717171"/>
+                                            </g>
+                                            <defs>
+                                              <clipPath id="clip0_297_2395">
+                                                <rect width="18" height="18" fill="white"/>
+                                              </clipPath>
+                                            </defs>
+                                          </svg>
+                                    </div>
+                                    <p class="main__content-mobile-name">Фільтри</p>
+                                </div>
+                                <div class="main__content-mobile--item">
+                                    <div class="main__content-mobile--icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                            <g clip-path="url(#clip0_297_2405)">
+                                              <path d="M17.9999 0.75C17.9999 1.16475 17.6639 1.5 17.2499 1.5H7.49991C7.08591 1.5 6.74991 1.16475 6.74991 0.75C6.74991 0.33525 7.08591 0 7.49991 0H17.2499C17.6639 0 17.9999 0.33525 17.9999 0.75ZM14.9999 3.75H7.49991C7.08591 3.75 6.74991 4.08525 6.74991 4.5C6.74991 4.91475 7.08591 5.25 7.49991 5.25H14.9999C15.4139 5.25 15.7499 4.91475 15.7499 4.5C15.7499 4.08525 15.4139 3.75 14.9999 3.75ZM12.7499 7.5H7.49991C7.08591 7.5 6.74991 7.83525 6.74991 8.25C6.74991 8.66475 7.08591 9 7.49991 9H12.7499C13.1639 9 13.4999 8.66475 13.4999 8.25C13.4999 7.83525 13.1639 7.5 12.7499 7.5ZM10.4999 11.25H7.49991C7.08591 11.25 6.74991 11.5852 6.74991 12C6.74991 12.4148 7.08591 12.75 7.49991 12.75H10.4999C10.9139 12.75 11.2499 12.4148 11.2499 12C11.2499 11.5852 10.9139 11.25 10.4999 11.25ZM6.84066 14.4697C6.54741 14.1765 6.07341 14.1765 5.78016 14.4697L4.49991 15.75V0.75C4.49991 0.33525 4.16391 0 3.74991 0C3.33591 0 2.99991 0.33525 2.99991 0.75V15.75L1.71891 14.469C1.42566 14.1757 0.951664 14.1757 0.658414 14.469C0.365164 14.7622 0.365164 15.2362 0.658414 15.5295L2.68866 17.5597C2.98116 17.8522 3.36516 17.9985 3.74991 17.9985C4.13466 17.9985 4.51791 17.8522 4.81041 17.5597L6.84066 15.5295C7.13391 15.2362 7.13391 14.763 6.84066 14.4697Z" fill="#717171"/>
+                                            </g>
+                                            <defs>
+                                              <clipPath id="clip0_297_2405">
+                                                <rect width="18" height="18" fill="white"/>
+                                              </clipPath>
+                                            </defs>
+                                        </svg>
+                                    </div>
+                                    <div class="sort-header-mob">
+                                        <div class="sort-heade-name main__content-mobile-name">Від дорогих до дешевих</div>
+                                        <div class="sort-heade-chose">
+                                            <div class="sort-heade-item main__content-mobile-name active">Від дорогих до дешевих</div>
+                                            <div class="sort-heade-item main__content-mobile-name   ">Від дешевих до дорогих</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="main__content-empty">
+                                <p class="main__empty-name">Товари з заданим набором фільтрів не знайдені. Щоб скинути фільтри, натисніть кнопку "Скинути" і спробуйте встановити інші параметри.</p>
+                            </div>
+
+                            
+                            <div class="main__content-box">
+                                <div class="main__item">
+                                    <div class="main__item-image">
+                                        <img class="main__item-img" src="img/tires/img-1.png" alt="">
+                                    </div>
+                                    <h3 class="main__item-name">Шина Michelin Pilot Sport 4 205/55 R16 91W</h3>
+                                    <p class="main__item-descr">Артикул: 132832</p>
+                                    <p class="main__item-status status-stock">В наявності</p>
+                                    <div class="main__item-end">
+                                        <p class="main__item-price">4 900₴</p>
+                                        <a class="main__item-buy btn-hover" href="product-tire.html">Купити
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none">
+                                                <g clip-path="url(#clip0_297_6495)">
+                                                  <path d="M11.3565 2.0385C11.2159 1.86972 11.0398 1.73398 10.8408 1.64091C10.6418 1.54784 10.4247 1.49973 10.205 1.5H2.121L2.1 1.3245C2.05702 0.959709 1.88169 0.623366 1.60724 0.379239C1.3328 0.135112 0.978314 0.000170897 0.611 0L0.5 0C0.367392 0 0.240215 0.0526784 0.146447 0.146447C0.0526784 0.240215 0 0.367392 0 0.5C0 0.632608 0.0526784 0.759785 0.146447 0.853553C0.240215 0.947322 0.367392 1 0.5 1H0.611C0.733467 1.00002 0.851669 1.04498 0.943186 1.12636C1.0347 1.20774 1.09317 1.31987 1.1075 1.4415L1.7955 7.2915C1.86693 7.89989 2.15924 8.46089 2.61695 8.868C3.07467 9.27512 3.66593 9.50001 4.2785 9.5H9.5C9.63261 9.5 9.75979 9.44732 9.85355 9.35355C9.94732 9.25979 10 9.13261 10 9C10 8.86739 9.94732 8.74021 9.85355 8.64645C9.75979 8.55268 9.63261 8.5 9.5 8.5H4.2785C3.96903 8.49913 3.6674 8.40256 3.41497 8.22353C3.16254 8.0445 2.97166 7.79177 2.8685 7.5H8.8285C9.41465 7.50004 9.98217 7.29412 10.4319 6.91822C10.8817 6.54232 11.185 6.02035 11.289 5.4435L11.6815 3.2665C11.7207 3.0505 11.7119 2.82853 11.6557 2.61632C11.5995 2.4041 11.4974 2.20684 11.3565 2.0385ZM10.7 3.089L10.307 5.266C10.2446 5.6125 10.0622 5.926 9.79193 6.1516C9.52163 6.3772 9.18058 6.50053 8.8285 6.5H2.7095L2.239 2.5H10.205C10.2784 2.49956 10.3511 2.51531 10.4178 2.54613C10.4844 2.57694 10.5435 2.62207 10.5908 2.6783C10.638 2.73453 10.6723 2.80049 10.6912 2.87147C10.7101 2.94245 10.7131 3.01672 10.7 3.089Z" fill="white"/>
+                                                  <path d="M3.5 12C4.05228 12 4.5 11.5523 4.5 11C4.5 10.4477 4.05228 10 3.5 10C2.94772 10 2.5 10.4477 2.5 11C2.5 11.5523 2.94772 12 3.5 12Z" fill="white"/>
+                                                  <path d="M8.5 12C9.05228 12 9.5 11.5523 9.5 11C9.5 10.4477 9.05228 10 8.5 10C7.94772 10 7.5 10.4477 7.5 11C7.5 11.5523 7.94772 12 8.5 12Z" fill="white"/>
+                                                </g>
+                                                <defs>
+                                                  <clipPath id="clip0_297_6495">
+                                                    <rect width="12" height="12" fill="white"/>
+                                                  </clipPath>
+                                                </defs>
+                                              </svg>
+                                            </a>
+                                    </div>
+                                </div>
+                                <div class="main__item">
+                                    <div class="main__item-image">
+                                        <img class="main__item-img" src="img/tires/img-1.png" alt="">
+                                    </div>
+                                    <h3 class="main__item-name">Шина Michelin Pilot Sport 4 205/55 R16 91W</h3>
+                                    <p class="main__item-descr">Артикул: 132832</p>
+                                    <p class="main__item-status status-stock">В наявності</p>
+                                    <div class="main__item-end">
+                                        <p class="main__item-price">4 900₴</p>
+                                        <a class="main__item-buy btn-hover" href="product-tire.html">Купити
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none">
+                                                <g clip-path="url(#clip0_297_6495)">
+                                                  <path d="M11.3565 2.0385C11.2159 1.86972 11.0398 1.73398 10.8408 1.64091C10.6418 1.54784 10.4247 1.49973 10.205 1.5H2.121L2.1 1.3245C2.05702 0.959709 1.88169 0.623366 1.60724 0.379239C1.3328 0.135112 0.978314 0.000170897 0.611 0L0.5 0C0.367392 0 0.240215 0.0526784 0.146447 0.146447C0.0526784 0.240215 0 0.367392 0 0.5C0 0.632608 0.0526784 0.759785 0.146447 0.853553C0.240215 0.947322 0.367392 1 0.5 1H0.611C0.733467 1.00002 0.851669 1.04498 0.943186 1.12636C1.0347 1.20774 1.09317 1.31987 1.1075 1.4415L1.7955 7.2915C1.86693 7.89989 2.15924 8.46089 2.61695 8.868C3.07467 9.27512 3.66593 9.50001 4.2785 9.5H9.5C9.63261 9.5 9.75979 9.44732 9.85355 9.35355C9.94732 9.25979 10 9.13261 10 9C10 8.86739 9.94732 8.74021 9.85355 8.64645C9.75979 8.55268 9.63261 8.5 9.5 8.5H4.2785C3.96903 8.49913 3.6674 8.40256 3.41497 8.22353C3.16254 8.0445 2.97166 7.79177 2.8685 7.5H8.8285C9.41465 7.50004 9.98217 7.29412 10.4319 6.91822C10.8817 6.54232 11.185 6.02035 11.289 5.4435L11.6815 3.2665C11.7207 3.0505 11.7119 2.82853 11.6557 2.61632C11.5995 2.4041 11.4974 2.20684 11.3565 2.0385ZM10.7 3.089L10.307 5.266C10.2446 5.6125 10.0622 5.926 9.79193 6.1516C9.52163 6.3772 9.18058 6.50053 8.8285 6.5H2.7095L2.239 2.5H10.205C10.2784 2.49956 10.3511 2.51531 10.4178 2.54613C10.4844 2.57694 10.5435 2.62207 10.5908 2.6783C10.638 2.73453 10.6723 2.80049 10.6912 2.87147C10.7101 2.94245 10.7131 3.01672 10.7 3.089Z" fill="white"/>
+                                                  <path d="M3.5 12C4.05228 12 4.5 11.5523 4.5 11C4.5 10.4477 4.05228 10 3.5 10C2.94772 10 2.5 10.4477 2.5 11C2.5 11.5523 2.94772 12 3.5 12Z" fill="white"/>
+                                                  <path d="M8.5 12C9.05228 12 9.5 11.5523 9.5 11C9.5 10.4477 9.05228 10 8.5 10C7.94772 10 7.5 10.4477 7.5 11C7.5 11.5523 7.94772 12 8.5 12Z" fill="white"/>
+                                                </g>
+                                                <defs>
+                                                  <clipPath id="clip0_297_6495">
+                                                    <rect width="12" height="12" fill="white"/>
+                                                  </clipPath>
+                                                </defs>
+                                              </svg>
+                                            </a>
+                                    </div>
+                                </div>
+                                <div class="main__item">
+                                    <div class="main__item-image">
+                                        <img class="main__item-img" src="img/tires/img-1.png" alt="">
+                                    </div>
+                                    <h3 class="main__item-name">Шина Michelin Pilot Sport 4 205/55 R16 91W</h3>
+                                    <p class="main__item-descr">Артикул: 132832</p>
+                                    <p class="main__item-status status-stock">В наявності</p>
+                                    <div class="main__item-end">
+                                        <p class="main__item-price">4 900₴</p>
+                                        <a class="main__item-buy btn-hover" href="product-tire.html">Купити
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none">
+                                                <g clip-path="url(#clip0_297_6495)">
+                                                  <path d="M11.3565 2.0385C11.2159 1.86972 11.0398 1.73398 10.8408 1.64091C10.6418 1.54784 10.4247 1.49973 10.205 1.5H2.121L2.1 1.3245C2.05702 0.959709 1.88169 0.623366 1.60724 0.379239C1.3328 0.135112 0.978314 0.000170897 0.611 0L0.5 0C0.367392 0 0.240215 0.0526784 0.146447 0.146447C0.0526784 0.240215 0 0.367392 0 0.5C0 0.632608 0.0526784 0.759785 0.146447 0.853553C0.240215 0.947322 0.367392 1 0.5 1H0.611C0.733467 1.00002 0.851669 1.04498 0.943186 1.12636C1.0347 1.20774 1.09317 1.31987 1.1075 1.4415L1.7955 7.2915C1.86693 7.89989 2.15924 8.46089 2.61695 8.868C3.07467 9.27512 3.66593 9.50001 4.2785 9.5H9.5C9.63261 9.5 9.75979 9.44732 9.85355 9.35355C9.94732 9.25979 10 9.13261 10 9C10 8.86739 9.94732 8.74021 9.85355 8.64645C9.75979 8.55268 9.63261 8.5 9.5 8.5H4.2785C3.96903 8.49913 3.6674 8.40256 3.41497 8.22353C3.16254 8.0445 2.97166 7.79177 2.8685 7.5H8.8285C9.41465 7.50004 9.98217 7.29412 10.4319 6.91822C10.8817 6.54232 11.185 6.02035 11.289 5.4435L11.6815 3.2665C11.7207 3.0505 11.7119 2.82853 11.6557 2.61632C11.5995 2.4041 11.4974 2.20684 11.3565 2.0385ZM10.7 3.089L10.307 5.266C10.2446 5.6125 10.0622 5.926 9.79193 6.1516C9.52163 6.3772 9.18058 6.50053 8.8285 6.5H2.7095L2.239 2.5H10.205C10.2784 2.49956 10.3511 2.51531 10.4178 2.54613C10.4844 2.57694 10.5435 2.62207 10.5908 2.6783C10.638 2.73453 10.6723 2.80049 10.6912 2.87147C10.7101 2.94245 10.7131 3.01672 10.7 3.089Z" fill="white"/>
+                                                  <path d="M3.5 12C4.05228 12 4.5 11.5523 4.5 11C4.5 10.4477 4.05228 10 3.5 10C2.94772 10 2.5 10.4477 2.5 11C2.5 11.5523 2.94772 12 3.5 12Z" fill="white"/>
+                                                  <path d="M8.5 12C9.05228 12 9.5 11.5523 9.5 11C9.5 10.4477 9.05228 10 8.5 10C7.94772 10 7.5 10.4477 7.5 11C7.5 11.5523 7.94772 12 8.5 12Z" fill="white"/>
+                                                </g>
+                                                <defs>
+                                                  <clipPath id="clip0_297_6495">
+                                                    <rect width="12" height="12" fill="white"/>
+                                                  </clipPath>
+                                                </defs>
+                                              </svg>
+                                            </a>
+                                    </div>
+                                </div>
+                                <div class="main__item">
+                                    <div class="main__item-image">
+                                        <img class="main__item-img" src="img/tires/img-1.png" alt="">
+                                    </div>
+                                    <h3 class="main__item-name">Шина Michelin Pilot Sport 4 205/55 R16 91W</h3>
+                                    <p class="main__item-descr">Артикул: 132832</p>
+                                    <p class="main__item-status status-stock">В наявності</p>
+                                    <div class="main__item-end">
+                                        <p class="main__item-price">4 900₴</p>
+                                        <a class="main__item-buy btn-hover" href="product-tire.html">Купити
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none">
+                                                <g clip-path="url(#clip0_297_6495)">
+                                                  <path d="M11.3565 2.0385C11.2159 1.86972 11.0398 1.73398 10.8408 1.64091C10.6418 1.54784 10.4247 1.49973 10.205 1.5H2.121L2.1 1.3245C2.05702 0.959709 1.88169 0.623366 1.60724 0.379239C1.3328 0.135112 0.978314 0.000170897 0.611 0L0.5 0C0.367392 0 0.240215 0.0526784 0.146447 0.146447C0.0526784 0.240215 0 0.367392 0 0.5C0 0.632608 0.0526784 0.759785 0.146447 0.853553C0.240215 0.947322 0.367392 1 0.5 1H0.611C0.733467 1.00002 0.851669 1.04498 0.943186 1.12636C1.0347 1.20774 1.09317 1.31987 1.1075 1.4415L1.7955 7.2915C1.86693 7.89989 2.15924 8.46089 2.61695 8.868C3.07467 9.27512 3.66593 9.50001 4.2785 9.5H9.5C9.63261 9.5 9.75979 9.44732 9.85355 9.35355C9.94732 9.25979 10 9.13261 10 9C10 8.86739 9.94732 8.74021 9.85355 8.64645C9.75979 8.55268 9.63261 8.5 9.5 8.5H4.2785C3.96903 8.49913 3.6674 8.40256 3.41497 8.22353C3.16254 8.0445 2.97166 7.79177 2.8685 7.5H8.8285C9.41465 7.50004 9.98217 7.29412 10.4319 6.91822C10.8817 6.54232 11.185 6.02035 11.289 5.4435L11.6815 3.2665C11.7207 3.0505 11.7119 2.82853 11.6557 2.61632C11.5995 2.4041 11.4974 2.20684 11.3565 2.0385ZM10.7 3.089L10.307 5.266C10.2446 5.6125 10.0622 5.926 9.79193 6.1516C9.52163 6.3772 9.18058 6.50053 8.8285 6.5H2.7095L2.239 2.5H10.205C10.2784 2.49956 10.3511 2.51531 10.4178 2.54613C10.4844 2.57694 10.5435 2.62207 10.5908 2.6783C10.638 2.73453 10.6723 2.80049 10.6912 2.87147C10.7101 2.94245 10.7131 3.01672 10.7 3.089Z" fill="white"/>
+                                                  <path d="M3.5 12C4.05228 12 4.5 11.5523 4.5 11C4.5 10.4477 4.05228 10 3.5 10C2.94772 10 2.5 10.4477 2.5 11C2.5 11.5523 2.94772 12 3.5 12Z" fill="white"/>
+                                                  <path d="M8.5 12C9.05228 12 9.5 11.5523 9.5 11C9.5 10.4477 9.05228 10 8.5 10C7.94772 10 7.5 10.4477 7.5 11C7.5 11.5523 7.94772 12 8.5 12Z" fill="white"/>
+                                                </g>
+                                                <defs>
+                                                  <clipPath id="clip0_297_6495">
+                                                    <rect width="12" height="12" fill="white"/>
+                                                  </clipPath>
+                                                </defs>
+                                              </svg>
+                                            </a>
+                                    </div>
+                                </div>
+                                <div class="main__item">
+                                    <div class="main__item-image">
+                                        <img class="main__item-img" src="img/tires/img-1.png" alt="">
+                                    </div>
+                                    <h3 class="main__item-name">Шина Michelin Pilot Sport 4 205/55 R16 91W</h3>
+                                    <p class="main__item-descr">Артикул: 132832</p>
+                                    <p class="main__item-status status-stock">В наявності</p>
+                                    <div class="main__item-end">
+                                        <p class="main__item-price">4 900₴</p>
+                                        <a class="main__item-buy btn-hover" href="product-tire.html">Купити
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none">
+                                                <g clip-path="url(#clip0_297_6495)">
+                                                  <path d="M11.3565 2.0385C11.2159 1.86972 11.0398 1.73398 10.8408 1.64091C10.6418 1.54784 10.4247 1.49973 10.205 1.5H2.121L2.1 1.3245C2.05702 0.959709 1.88169 0.623366 1.60724 0.379239C1.3328 0.135112 0.978314 0.000170897 0.611 0L0.5 0C0.367392 0 0.240215 0.0526784 0.146447 0.146447C0.0526784 0.240215 0 0.367392 0 0.5C0 0.632608 0.0526784 0.759785 0.146447 0.853553C0.240215 0.947322 0.367392 1 0.5 1H0.611C0.733467 1.00002 0.851669 1.04498 0.943186 1.12636C1.0347 1.20774 1.09317 1.31987 1.1075 1.4415L1.7955 7.2915C1.86693 7.89989 2.15924 8.46089 2.61695 8.868C3.07467 9.27512 3.66593 9.50001 4.2785 9.5H9.5C9.63261 9.5 9.75979 9.44732 9.85355 9.35355C9.94732 9.25979 10 9.13261 10 9C10 8.86739 9.94732 8.74021 9.85355 8.64645C9.75979 8.55268 9.63261 8.5 9.5 8.5H4.2785C3.96903 8.49913 3.6674 8.40256 3.41497 8.22353C3.16254 8.0445 2.97166 7.79177 2.8685 7.5H8.8285C9.41465 7.50004 9.98217 7.29412 10.4319 6.91822C10.8817 6.54232 11.185 6.02035 11.289 5.4435L11.6815 3.2665C11.7207 3.0505 11.7119 2.82853 11.6557 2.61632C11.5995 2.4041 11.4974 2.20684 11.3565 2.0385ZM10.7 3.089L10.307 5.266C10.2446 5.6125 10.0622 5.926 9.79193 6.1516C9.52163 6.3772 9.18058 6.50053 8.8285 6.5H2.7095L2.239 2.5H10.205C10.2784 2.49956 10.3511 2.51531 10.4178 2.54613C10.4844 2.57694 10.5435 2.62207 10.5908 2.6783C10.638 2.73453 10.6723 2.80049 10.6912 2.87147C10.7101 2.94245 10.7131 3.01672 10.7 3.089Z" fill="white"/>
+                                                  <path d="M3.5 12C4.05228 12 4.5 11.5523 4.5 11C4.5 10.4477 4.05228 10 3.5 10C2.94772 10 2.5 10.4477 2.5 11C2.5 11.5523 2.94772 12 3.5 12Z" fill="white"/>
+                                                  <path d="M8.5 12C9.05228 12 9.5 11.5523 9.5 11C9.5 10.4477 9.05228 10 8.5 10C7.94772 10 7.5 10.4477 7.5 11C7.5 11.5523 7.94772 12 8.5 12Z" fill="white"/>
+                                                </g>
+                                                <defs>
+                                                  <clipPath id="clip0_297_6495">
+                                                    <rect width="12" height="12" fill="white"/>
+                                                  </clipPath>
+                                                </defs>
+                                              </svg>
+                                            </a>
+                                    </div>
+                                </div>
+                                <div class="main__item">
+                                    <div class="main__item-image">
+                                        <img class="main__item-img" src="img/tires/img-1.png" alt="">
+                                    </div>
+                                    <h3 class="main__item-name">Шина Michelin Pilot Sport 4 205/55 R16 91W</h3>
+                                    <p class="main__item-descr">Артикул: 132832</p>
+                                    <p class="main__item-status status-stock">В наявності</p>
+                                    <div class="main__item-end">
+                                        <p class="main__item-price">4 900₴</p>
+                                        <a class="main__item-buy btn-hover" href="product-tire.html">Купити
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none">
+                                                <g clip-path="url(#clip0_297_6495)">
+                                                  <path d="M11.3565 2.0385C11.2159 1.86972 11.0398 1.73398 10.8408 1.64091C10.6418 1.54784 10.4247 1.49973 10.205 1.5H2.121L2.1 1.3245C2.05702 0.959709 1.88169 0.623366 1.60724 0.379239C1.3328 0.135112 0.978314 0.000170897 0.611 0L0.5 0C0.367392 0 0.240215 0.0526784 0.146447 0.146447C0.0526784 0.240215 0 0.367392 0 0.5C0 0.632608 0.0526784 0.759785 0.146447 0.853553C0.240215 0.947322 0.367392 1 0.5 1H0.611C0.733467 1.00002 0.851669 1.04498 0.943186 1.12636C1.0347 1.20774 1.09317 1.31987 1.1075 1.4415L1.7955 7.2915C1.86693 7.89989 2.15924 8.46089 2.61695 8.868C3.07467 9.27512 3.66593 9.50001 4.2785 9.5H9.5C9.63261 9.5 9.75979 9.44732 9.85355 9.35355C9.94732 9.25979 10 9.13261 10 9C10 8.86739 9.94732 8.74021 9.85355 8.64645C9.75979 8.55268 9.63261 8.5 9.5 8.5H4.2785C3.96903 8.49913 3.6674 8.40256 3.41497 8.22353C3.16254 8.0445 2.97166 7.79177 2.8685 7.5H8.8285C9.41465 7.50004 9.98217 7.29412 10.4319 6.91822C10.8817 6.54232 11.185 6.02035 11.289 5.4435L11.6815 3.2665C11.7207 3.0505 11.7119 2.82853 11.6557 2.61632C11.5995 2.4041 11.4974 2.20684 11.3565 2.0385ZM10.7 3.089L10.307 5.266C10.2446 5.6125 10.0622 5.926 9.79193 6.1516C9.52163 6.3772 9.18058 6.50053 8.8285 6.5H2.7095L2.239 2.5H10.205C10.2784 2.49956 10.3511 2.51531 10.4178 2.54613C10.4844 2.57694 10.5435 2.62207 10.5908 2.6783C10.638 2.73453 10.6723 2.80049 10.6912 2.87147C10.7101 2.94245 10.7131 3.01672 10.7 3.089Z" fill="white"/>
+                                                  <path d="M3.5 12C4.05228 12 4.5 11.5523 4.5 11C4.5 10.4477 4.05228 10 3.5 10C2.94772 10 2.5 10.4477 2.5 11C2.5 11.5523 2.94772 12 3.5 12Z" fill="white"/>
+                                                  <path d="M8.5 12C9.05228 12 9.5 11.5523 9.5 11C9.5 10.4477 9.05228 10 8.5 10C7.94772 10 7.5 10.4477 7.5 11C7.5 11.5523 7.94772 12 8.5 12Z" fill="white"/>
+                                                </g>
+                                                <defs>
+                                                  <clipPath id="clip0_297_6495">
+                                                    <rect width="12" height="12" fill="white"/>
+                                                  </clipPath>
+                                                </defs>
+                                              </svg>
+                                            </a>
+                                    </div>
+                                </div>
+                                <div class="main__item">
+                                    <div class="main__item-image">
+                                        <img class="main__item-img" src="img/tires/img-1.png" alt="">
+                                    </div>
+                                    <h3 class="main__item-name">Шина Michelin Pilot Sport 4 205/55 R16 91W</h3>
+                                    <p class="main__item-descr">Артикул: 132832</p>
+                                    <p class="main__item-status status-stock">В наявності</p>
+                                    <div class="main__item-end">
+                                        <p class="main__item-price">4 900₴</p>
+                                        <a class="main__item-buy btn-hover" href="product-tire.html">Купити
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none">
+                                                <g clip-path="url(#clip0_297_6495)">
+                                                  <path d="M11.3565 2.0385C11.2159 1.86972 11.0398 1.73398 10.8408 1.64091C10.6418 1.54784 10.4247 1.49973 10.205 1.5H2.121L2.1 1.3245C2.05702 0.959709 1.88169 0.623366 1.60724 0.379239C1.3328 0.135112 0.978314 0.000170897 0.611 0L0.5 0C0.367392 0 0.240215 0.0526784 0.146447 0.146447C0.0526784 0.240215 0 0.367392 0 0.5C0 0.632608 0.0526784 0.759785 0.146447 0.853553C0.240215 0.947322 0.367392 1 0.5 1H0.611C0.733467 1.00002 0.851669 1.04498 0.943186 1.12636C1.0347 1.20774 1.09317 1.31987 1.1075 1.4415L1.7955 7.2915C1.86693 7.89989 2.15924 8.46089 2.61695 8.868C3.07467 9.27512 3.66593 9.50001 4.2785 9.5H9.5C9.63261 9.5 9.75979 9.44732 9.85355 9.35355C9.94732 9.25979 10 9.13261 10 9C10 8.86739 9.94732 8.74021 9.85355 8.64645C9.75979 8.55268 9.63261 8.5 9.5 8.5H4.2785C3.96903 8.49913 3.6674 8.40256 3.41497 8.22353C3.16254 8.0445 2.97166 7.79177 2.8685 7.5H8.8285C9.41465 7.50004 9.98217 7.29412 10.4319 6.91822C10.8817 6.54232 11.185 6.02035 11.289 5.4435L11.6815 3.2665C11.7207 3.0505 11.7119 2.82853 11.6557 2.61632C11.5995 2.4041 11.4974 2.20684 11.3565 2.0385ZM10.7 3.089L10.307 5.266C10.2446 5.6125 10.0622 5.926 9.79193 6.1516C9.52163 6.3772 9.18058 6.50053 8.8285 6.5H2.7095L2.239 2.5H10.205C10.2784 2.49956 10.3511 2.51531 10.4178 2.54613C10.4844 2.57694 10.5435 2.62207 10.5908 2.6783C10.638 2.73453 10.6723 2.80049 10.6912 2.87147C10.7101 2.94245 10.7131 3.01672 10.7 3.089Z" fill="white"/>
+                                                  <path d="M3.5 12C4.05228 12 4.5 11.5523 4.5 11C4.5 10.4477 4.05228 10 3.5 10C2.94772 10 2.5 10.4477 2.5 11C2.5 11.5523 2.94772 12 3.5 12Z" fill="white"/>
+                                                  <path d="M8.5 12C9.05228 12 9.5 11.5523 9.5 11C9.5 10.4477 9.05228 10 8.5 10C7.94772 10 7.5 10.4477 7.5 11C7.5 11.5523 7.94772 12 8.5 12Z" fill="white"/>
+                                                </g>
+                                                <defs>
+                                                  <clipPath id="clip0_297_6495">
+                                                    <rect width="12" height="12" fill="white"/>
+                                                  </clipPath>
+                                                </defs>
+                                              </svg>
+                                            </a>
+                                    </div>
+                                </div>
+                                <div class="main__item">
+                                    <div class="main__item-image">
+                                        <img class="main__item-img" src="img/tires/img-1.png" alt="">
+                                    </div>
+                                    <h3 class="main__item-name">Шина Michelin Pilot Sport 4 205/55 R16 91W</h3>
+                                    <p class="main__item-descr">Артикул: 132832</p>
+                                    <p class="main__item-status status-stock">В наявності</p>
+                                    <div class="main__item-end">
+                                        <p class="main__item-price">4 900₴</p>
+                                        <a class="main__item-buy btn-hover" href="product-tire.html">Купити
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none">
+                                                <g clip-path="url(#clip0_297_6495)">
+                                                  <path d="M11.3565 2.0385C11.2159 1.86972 11.0398 1.73398 10.8408 1.64091C10.6418 1.54784 10.4247 1.49973 10.205 1.5H2.121L2.1 1.3245C2.05702 0.959709 1.88169 0.623366 1.60724 0.379239C1.3328 0.135112 0.978314 0.000170897 0.611 0L0.5 0C0.367392 0 0.240215 0.0526784 0.146447 0.146447C0.0526784 0.240215 0 0.367392 0 0.5C0 0.632608 0.0526784 0.759785 0.146447 0.853553C0.240215 0.947322 0.367392 1 0.5 1H0.611C0.733467 1.00002 0.851669 1.04498 0.943186 1.12636C1.0347 1.20774 1.09317 1.31987 1.1075 1.4415L1.7955 7.2915C1.86693 7.89989 2.15924 8.46089 2.61695 8.868C3.07467 9.27512 3.66593 9.50001 4.2785 9.5H9.5C9.63261 9.5 9.75979 9.44732 9.85355 9.35355C9.94732 9.25979 10 9.13261 10 9C10 8.86739 9.94732 8.74021 9.85355 8.64645C9.75979 8.55268 9.63261 8.5 9.5 8.5H4.2785C3.96903 8.49913 3.6674 8.40256 3.41497 8.22353C3.16254 8.0445 2.97166 7.79177 2.8685 7.5H8.8285C9.41465 7.50004 9.98217 7.29412 10.4319 6.91822C10.8817 6.54232 11.185 6.02035 11.289 5.4435L11.6815 3.2665C11.7207 3.0505 11.7119 2.82853 11.6557 2.61632C11.5995 2.4041 11.4974 2.20684 11.3565 2.0385ZM10.7 3.089L10.307 5.266C10.2446 5.6125 10.0622 5.926 9.79193 6.1516C9.52163 6.3772 9.18058 6.50053 8.8285 6.5H2.7095L2.239 2.5H10.205C10.2784 2.49956 10.3511 2.51531 10.4178 2.54613C10.4844 2.57694 10.5435 2.62207 10.5908 2.6783C10.638 2.73453 10.6723 2.80049 10.6912 2.87147C10.7101 2.94245 10.7131 3.01672 10.7 3.089Z" fill="white"/>
+                                                  <path d="M3.5 12C4.05228 12 4.5 11.5523 4.5 11C4.5 10.4477 4.05228 10 3.5 10C2.94772 10 2.5 10.4477 2.5 11C2.5 11.5523 2.94772 12 3.5 12Z" fill="white"/>
+                                                  <path d="M8.5 12C9.05228 12 9.5 11.5523 9.5 11C9.5 10.4477 9.05228 10 8.5 10C7.94772 10 7.5 10.4477 7.5 11C7.5 11.5523 7.94772 12 8.5 12Z" fill="white"/>
+                                                </g>
+                                                <defs>
+                                                  <clipPath id="clip0_297_6495">
+                                                    <rect width="12" height="12" fill="white"/>
+                                                  </clipPath>
+                                                </defs>
+                                              </svg>
+                                            </a>
+                                    </div>
+                                </div>
+                                <div class="main__item">
+                                    <div class="main__item-image">
+                                        <img class="main__item-img" src="img/tires/img-1.png" alt="">
+                                    </div>
+                                    <h3 class="main__item-name">Шина Michelin Pilot Sport 4 205/55 R16 91W</h3>
+                                    <p class="main__item-descr">Артикул: 132832</p>
+                                    <p class="main__item-status status-stock">В наявності</p>
+                                    <div class="main__item-end">
+                                        <p class="main__item-price">4 900₴</p>
+                                        <a class="main__item-buy btn-hover" href="product-tire.html">Купити
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none">
+                                                <g clip-path="url(#clip0_297_6495)">
+                                                  <path d="M11.3565 2.0385C11.2159 1.86972 11.0398 1.73398 10.8408 1.64091C10.6418 1.54784 10.4247 1.49973 10.205 1.5H2.121L2.1 1.3245C2.05702 0.959709 1.88169 0.623366 1.60724 0.379239C1.3328 0.135112 0.978314 0.000170897 0.611 0L0.5 0C0.367392 0 0.240215 0.0526784 0.146447 0.146447C0.0526784 0.240215 0 0.367392 0 0.5C0 0.632608 0.0526784 0.759785 0.146447 0.853553C0.240215 0.947322 0.367392 1 0.5 1H0.611C0.733467 1.00002 0.851669 1.04498 0.943186 1.12636C1.0347 1.20774 1.09317 1.31987 1.1075 1.4415L1.7955 7.2915C1.86693 7.89989 2.15924 8.46089 2.61695 8.868C3.07467 9.27512 3.66593 9.50001 4.2785 9.5H9.5C9.63261 9.5 9.75979 9.44732 9.85355 9.35355C9.94732 9.25979 10 9.13261 10 9C10 8.86739 9.94732 8.74021 9.85355 8.64645C9.75979 8.55268 9.63261 8.5 9.5 8.5H4.2785C3.96903 8.49913 3.6674 8.40256 3.41497 8.22353C3.16254 8.0445 2.97166 7.79177 2.8685 7.5H8.8285C9.41465 7.50004 9.98217 7.29412 10.4319 6.91822C10.8817 6.54232 11.185 6.02035 11.289 5.4435L11.6815 3.2665C11.7207 3.0505 11.7119 2.82853 11.6557 2.61632C11.5995 2.4041 11.4974 2.20684 11.3565 2.0385ZM10.7 3.089L10.307 5.266C10.2446 5.6125 10.0622 5.926 9.79193 6.1516C9.52163 6.3772 9.18058 6.50053 8.8285 6.5H2.7095L2.239 2.5H10.205C10.2784 2.49956 10.3511 2.51531 10.4178 2.54613C10.4844 2.57694 10.5435 2.62207 10.5908 2.6783C10.638 2.73453 10.6723 2.80049 10.6912 2.87147C10.7101 2.94245 10.7131 3.01672 10.7 3.089Z" fill="white"/>
+                                                  <path d="M3.5 12C4.05228 12 4.5 11.5523 4.5 11C4.5 10.4477 4.05228 10 3.5 10C2.94772 10 2.5 10.4477 2.5 11C2.5 11.5523 2.94772 12 3.5 12Z" fill="white"/>
+                                                  <path d="M8.5 12C9.05228 12 9.5 11.5523 9.5 11C9.5 10.4477 9.05228 10 8.5 10C7.94772 10 7.5 10.4477 7.5 11C7.5 11.5523 7.94772 12 8.5 12Z" fill="white"/>
+                                                </g>
+                                                <defs>
+                                                  <clipPath id="clip0_297_6495">
+                                                    <rect width="12" height="12" fill="white"/>
+                                                  </clipPath>
+                                                </defs>
+                                              </svg>
+                                            </a>
+                                    </div>
+                                </div>
+                                <div class="main__item">
+                                    <div class="main__item-image">
+                                        <img class="main__item-img" src="img/tires/img-1.png" alt="">
+                                    </div>
+                                    <h3 class="main__item-name">Шина Michelin Pilot Sport 4 205/55 R16 91W</h3>
+                                    <p class="main__item-descr">Артикул: 132832</p>
+                                    <p class="main__item-status status-stock">В наявності</p>
+                                    <div class="main__item-end">
+                                        <p class="main__item-price">4 900₴</p>
+                                        <a class="main__item-buy btn-hover" href="product-tire.html">Купити
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none">
+                                                <g clip-path="url(#clip0_297_6495)">
+                                                  <path d="M11.3565 2.0385C11.2159 1.86972 11.0398 1.73398 10.8408 1.64091C10.6418 1.54784 10.4247 1.49973 10.205 1.5H2.121L2.1 1.3245C2.05702 0.959709 1.88169 0.623366 1.60724 0.379239C1.3328 0.135112 0.978314 0.000170897 0.611 0L0.5 0C0.367392 0 0.240215 0.0526784 0.146447 0.146447C0.0526784 0.240215 0 0.367392 0 0.5C0 0.632608 0.0526784 0.759785 0.146447 0.853553C0.240215 0.947322 0.367392 1 0.5 1H0.611C0.733467 1.00002 0.851669 1.04498 0.943186 1.12636C1.0347 1.20774 1.09317 1.31987 1.1075 1.4415L1.7955 7.2915C1.86693 7.89989 2.15924 8.46089 2.61695 8.868C3.07467 9.27512 3.66593 9.50001 4.2785 9.5H9.5C9.63261 9.5 9.75979 9.44732 9.85355 9.35355C9.94732 9.25979 10 9.13261 10 9C10 8.86739 9.94732 8.74021 9.85355 8.64645C9.75979 8.55268 9.63261 8.5 9.5 8.5H4.2785C3.96903 8.49913 3.6674 8.40256 3.41497 8.22353C3.16254 8.0445 2.97166 7.79177 2.8685 7.5H8.8285C9.41465 7.50004 9.98217 7.29412 10.4319 6.91822C10.8817 6.54232 11.185 6.02035 11.289 5.4435L11.6815 3.2665C11.7207 3.0505 11.7119 2.82853 11.6557 2.61632C11.5995 2.4041 11.4974 2.20684 11.3565 2.0385ZM10.7 3.089L10.307 5.266C10.2446 5.6125 10.0622 5.926 9.79193 6.1516C9.52163 6.3772 9.18058 6.50053 8.8285 6.5H2.7095L2.239 2.5H10.205C10.2784 2.49956 10.3511 2.51531 10.4178 2.54613C10.4844 2.57694 10.5435 2.62207 10.5908 2.6783C10.638 2.73453 10.6723 2.80049 10.6912 2.87147C10.7101 2.94245 10.7131 3.01672 10.7 3.089Z" fill="white"/>
+                                                  <path d="M3.5 12C4.05228 12 4.5 11.5523 4.5 11C4.5 10.4477 4.05228 10 3.5 10C2.94772 10 2.5 10.4477 2.5 11C2.5 11.5523 2.94772 12 3.5 12Z" fill="white"/>
+                                                  <path d="M8.5 12C9.05228 12 9.5 11.5523 9.5 11C9.5 10.4477 9.05228 10 8.5 10C7.94772 10 7.5 10.4477 7.5 11C7.5 11.5523 7.94772 12 8.5 12Z" fill="white"/>
+                                                </g>
+                                                <defs>
+                                                  <clipPath id="clip0_297_6495">
+                                                    <rect width="12" height="12" fill="white"/>
+                                                  </clipPath>
+                                                </defs>
+                                              </svg>
+                                            </a>
+                                    </div>
+                                </div>
+                                <div class="main__item">
+                                    <div class="main__item-image">
+                                        <img class="main__item-img" src="img/tires/img-1.png" alt="">
+                                    </div>
+                                    <h3 class="main__item-name">Шина Michelin Pilot Sport 4 205/55 R16 91W</h3>
+                                    <p class="main__item-descr">Артикул: 132832</p>
+                                    <p class="main__item-status status-stock">В наявності</p>
+                                    <div class="main__item-end">
+                                        <p class="main__item-price">4 900₴</p>
+                                        <a class="main__item-buy btn-hover" href="product-tire.html">Купити
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none">
+                                                <g clip-path="url(#clip0_297_6495)">
+                                                  <path d="M11.3565 2.0385C11.2159 1.86972 11.0398 1.73398 10.8408 1.64091C10.6418 1.54784 10.4247 1.49973 10.205 1.5H2.121L2.1 1.3245C2.05702 0.959709 1.88169 0.623366 1.60724 0.379239C1.3328 0.135112 0.978314 0.000170897 0.611 0L0.5 0C0.367392 0 0.240215 0.0526784 0.146447 0.146447C0.0526784 0.240215 0 0.367392 0 0.5C0 0.632608 0.0526784 0.759785 0.146447 0.853553C0.240215 0.947322 0.367392 1 0.5 1H0.611C0.733467 1.00002 0.851669 1.04498 0.943186 1.12636C1.0347 1.20774 1.09317 1.31987 1.1075 1.4415L1.7955 7.2915C1.86693 7.89989 2.15924 8.46089 2.61695 8.868C3.07467 9.27512 3.66593 9.50001 4.2785 9.5H9.5C9.63261 9.5 9.75979 9.44732 9.85355 9.35355C9.94732 9.25979 10 9.13261 10 9C10 8.86739 9.94732 8.74021 9.85355 8.64645C9.75979 8.55268 9.63261 8.5 9.5 8.5H4.2785C3.96903 8.49913 3.6674 8.40256 3.41497 8.22353C3.16254 8.0445 2.97166 7.79177 2.8685 7.5H8.8285C9.41465 7.50004 9.98217 7.29412 10.4319 6.91822C10.8817 6.54232 11.185 6.02035 11.289 5.4435L11.6815 3.2665C11.7207 3.0505 11.7119 2.82853 11.6557 2.61632C11.5995 2.4041 11.4974 2.20684 11.3565 2.0385ZM10.7 3.089L10.307 5.266C10.2446 5.6125 10.0622 5.926 9.79193 6.1516C9.52163 6.3772 9.18058 6.50053 8.8285 6.5H2.7095L2.239 2.5H10.205C10.2784 2.49956 10.3511 2.51531 10.4178 2.54613C10.4844 2.57694 10.5435 2.62207 10.5908 2.6783C10.638 2.73453 10.6723 2.80049 10.6912 2.87147C10.7101 2.94245 10.7131 3.01672 10.7 3.089Z" fill="white"/>
+                                                  <path d="M3.5 12C4.05228 12 4.5 11.5523 4.5 11C4.5 10.4477 4.05228 10 3.5 10C2.94772 10 2.5 10.4477 2.5 11C2.5 11.5523 2.94772 12 3.5 12Z" fill="white"/>
+                                                  <path d="M8.5 12C9.05228 12 9.5 11.5523 9.5 11C9.5 10.4477 9.05228 10 8.5 10C7.94772 10 7.5 10.4477 7.5 11C7.5 11.5523 7.94772 12 8.5 12Z" fill="white"/>
+                                                </g>
+                                                <defs>
+                                                  <clipPath id="clip0_297_6495">
+                                                    <rect width="12" height="12" fill="white"/>
+                                                  </clipPath>
+                                                </defs>
+                                              </svg>
+                                            </a>
+                                    </div>
+                                </div>
+                                <div class="main__item">
+                                    <div class="main__item-image">
+                                        <img class="main__item-img" src="img/tires/img-1.png" alt="">
+                                    </div>
+                                    <h3 class="main__item-name">Шина Michelin Pilot Sport 4 205/55 R16 91W</h3>
+                                    <p class="main__item-descr">Артикул: 132832</p>
+                                    <p class="main__item-status status-stock">В наявності</p>
+                                    <div class="main__item-end">
+                                        <p class="main__item-price">4 900₴</p>
+                                        <a class="main__item-buy btn-hover" href="product-tire.html">Купити
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none">
+                                                <g clip-path="url(#clip0_297_6495)">
+                                                  <path d="M11.3565 2.0385C11.2159 1.86972 11.0398 1.73398 10.8408 1.64091C10.6418 1.54784 10.4247 1.49973 10.205 1.5H2.121L2.1 1.3245C2.05702 0.959709 1.88169 0.623366 1.60724 0.379239C1.3328 0.135112 0.978314 0.000170897 0.611 0L0.5 0C0.367392 0 0.240215 0.0526784 0.146447 0.146447C0.0526784 0.240215 0 0.367392 0 0.5C0 0.632608 0.0526784 0.759785 0.146447 0.853553C0.240215 0.947322 0.367392 1 0.5 1H0.611C0.733467 1.00002 0.851669 1.04498 0.943186 1.12636C1.0347 1.20774 1.09317 1.31987 1.1075 1.4415L1.7955 7.2915C1.86693 7.89989 2.15924 8.46089 2.61695 8.868C3.07467 9.27512 3.66593 9.50001 4.2785 9.5H9.5C9.63261 9.5 9.75979 9.44732 9.85355 9.35355C9.94732 9.25979 10 9.13261 10 9C10 8.86739 9.94732 8.74021 9.85355 8.64645C9.75979 8.55268 9.63261 8.5 9.5 8.5H4.2785C3.96903 8.49913 3.6674 8.40256 3.41497 8.22353C3.16254 8.0445 2.97166 7.79177 2.8685 7.5H8.8285C9.41465 7.50004 9.98217 7.29412 10.4319 6.91822C10.8817 6.54232 11.185 6.02035 11.289 5.4435L11.6815 3.2665C11.7207 3.0505 11.7119 2.82853 11.6557 2.61632C11.5995 2.4041 11.4974 2.20684 11.3565 2.0385ZM10.7 3.089L10.307 5.266C10.2446 5.6125 10.0622 5.926 9.79193 6.1516C9.52163 6.3772 9.18058 6.50053 8.8285 6.5H2.7095L2.239 2.5H10.205C10.2784 2.49956 10.3511 2.51531 10.4178 2.54613C10.4844 2.57694 10.5435 2.62207 10.5908 2.6783C10.638 2.73453 10.6723 2.80049 10.6912 2.87147C10.7101 2.94245 10.7131 3.01672 10.7 3.089Z" fill="white"/>
+                                                  <path d="M3.5 12C4.05228 12 4.5 11.5523 4.5 11C4.5 10.4477 4.05228 10 3.5 10C2.94772 10 2.5 10.4477 2.5 11C2.5 11.5523 2.94772 12 3.5 12Z" fill="white"/>
+                                                  <path d="M8.5 12C9.05228 12 9.5 11.5523 9.5 11C9.5 10.4477 9.05228 10 8.5 10C7.94772 10 7.5 10.4477 7.5 11C7.5 11.5523 7.94772 12 8.5 12Z" fill="white"/>
+                                                </g>
+                                                <defs>
+                                                  <clipPath id="clip0_297_6495">
+                                                    <rect width="12" height="12" fill="white"/>
+                                                  </clipPath>
+                                                </defs>
+                                              </svg>
+                                            </a>
+                                    </div>
+                                </div>
+                                <div class="main__item">
+                                    <div class="main__item-image">
+                                        <img class="main__item-img" src="img/tires/img-1.png" alt="">
+                                    </div>
+                                    <h3 class="main__item-name">Шина Michelin Pilot Sport 4 205/55 R16 91W</h3>
+                                    <p class="main__item-descr">Артикул: 132832</p>
+                                    <p class="main__item-status status-stock">В наявності</p>
+                                    <div class="main__item-end">
+                                        <p class="main__item-price">4 900₴</p>
+                                        <a class="main__item-buy btn-hover" href="product-tire.html">Купити
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none">
+                                                <g clip-path="url(#clip0_297_6495)">
+                                                  <path d="M11.3565 2.0385C11.2159 1.86972 11.0398 1.73398 10.8408 1.64091C10.6418 1.54784 10.4247 1.49973 10.205 1.5H2.121L2.1 1.3245C2.05702 0.959709 1.88169 0.623366 1.60724 0.379239C1.3328 0.135112 0.978314 0.000170897 0.611 0L0.5 0C0.367392 0 0.240215 0.0526784 0.146447 0.146447C0.0526784 0.240215 0 0.367392 0 0.5C0 0.632608 0.0526784 0.759785 0.146447 0.853553C0.240215 0.947322 0.367392 1 0.5 1H0.611C0.733467 1.00002 0.851669 1.04498 0.943186 1.12636C1.0347 1.20774 1.09317 1.31987 1.1075 1.4415L1.7955 7.2915C1.86693 7.89989 2.15924 8.46089 2.61695 8.868C3.07467 9.27512 3.66593 9.50001 4.2785 9.5H9.5C9.63261 9.5 9.75979 9.44732 9.85355 9.35355C9.94732 9.25979 10 9.13261 10 9C10 8.86739 9.94732 8.74021 9.85355 8.64645C9.75979 8.55268 9.63261 8.5 9.5 8.5H4.2785C3.96903 8.49913 3.6674 8.40256 3.41497 8.22353C3.16254 8.0445 2.97166 7.79177 2.8685 7.5H8.8285C9.41465 7.50004 9.98217 7.29412 10.4319 6.91822C10.8817 6.54232 11.185 6.02035 11.289 5.4435L11.6815 3.2665C11.7207 3.0505 11.7119 2.82853 11.6557 2.61632C11.5995 2.4041 11.4974 2.20684 11.3565 2.0385ZM10.7 3.089L10.307 5.266C10.2446 5.6125 10.0622 5.926 9.79193 6.1516C9.52163 6.3772 9.18058 6.50053 8.8285 6.5H2.7095L2.239 2.5H10.205C10.2784 2.49956 10.3511 2.51531 10.4178 2.54613C10.4844 2.57694 10.5435 2.62207 10.5908 2.6783C10.638 2.73453 10.6723 2.80049 10.6912 2.87147C10.7101 2.94245 10.7131 3.01672 10.7 3.089Z" fill="white"/>
+                                                  <path d="M3.5 12C4.05228 12 4.5 11.5523 4.5 11C4.5 10.4477 4.05228 10 3.5 10C2.94772 10 2.5 10.4477 2.5 11C2.5 11.5523 2.94772 12 3.5 12Z" fill="white"/>
+                                                  <path d="M8.5 12C9.05228 12 9.5 11.5523 9.5 11C9.5 10.4477 9.05228 10 8.5 10C7.94772 10 7.5 10.4477 7.5 11C7.5 11.5523 7.94772 12 8.5 12Z" fill="white"/>
+                                                </g>
+                                                <defs>
+                                                  <clipPath id="clip0_297_6495">
+                                                    <rect width="12" height="12" fill="white"/>
+                                                  </clipPath>
+                                                </defs>
+                                              </svg>
+                                            </a>
+                                    </div>
+                                </div>
+                                <div class="main__item">
+                                    <div class="main__item-image">
+                                        <img class="main__item-img" src="img/tires/img-1.png" alt="">
+                                    </div>
+                                    <h3 class="main__item-name">Шина Michelin Pilot Sport 4 205/55 R16 91W</h3>
+                                    <p class="main__item-descr">Артикул: 132832</p>
+                                    <p class="main__item-status status-stock">В наявності</p>
+                                    <div class="main__item-end">
+                                        <p class="main__item-price">4 900₴</p>
+                                        <a class="main__item-buy btn-hover" href="product-tire.html">Купити
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none">
+                                                <g clip-path="url(#clip0_297_6495)">
+                                                  <path d="M11.3565 2.0385C11.2159 1.86972 11.0398 1.73398 10.8408 1.64091C10.6418 1.54784 10.4247 1.49973 10.205 1.5H2.121L2.1 1.3245C2.05702 0.959709 1.88169 0.623366 1.60724 0.379239C1.3328 0.135112 0.978314 0.000170897 0.611 0L0.5 0C0.367392 0 0.240215 0.0526784 0.146447 0.146447C0.0526784 0.240215 0 0.367392 0 0.5C0 0.632608 0.0526784 0.759785 0.146447 0.853553C0.240215 0.947322 0.367392 1 0.5 1H0.611C0.733467 1.00002 0.851669 1.04498 0.943186 1.12636C1.0347 1.20774 1.09317 1.31987 1.1075 1.4415L1.7955 7.2915C1.86693 7.89989 2.15924 8.46089 2.61695 8.868C3.07467 9.27512 3.66593 9.50001 4.2785 9.5H9.5C9.63261 9.5 9.75979 9.44732 9.85355 9.35355C9.94732 9.25979 10 9.13261 10 9C10 8.86739 9.94732 8.74021 9.85355 8.64645C9.75979 8.55268 9.63261 8.5 9.5 8.5H4.2785C3.96903 8.49913 3.6674 8.40256 3.41497 8.22353C3.16254 8.0445 2.97166 7.79177 2.8685 7.5H8.8285C9.41465 7.50004 9.98217 7.29412 10.4319 6.91822C10.8817 6.54232 11.185 6.02035 11.289 5.4435L11.6815 3.2665C11.7207 3.0505 11.7119 2.82853 11.6557 2.61632C11.5995 2.4041 11.4974 2.20684 11.3565 2.0385ZM10.7 3.089L10.307 5.266C10.2446 5.6125 10.0622 5.926 9.79193 6.1516C9.52163 6.3772 9.18058 6.50053 8.8285 6.5H2.7095L2.239 2.5H10.205C10.2784 2.49956 10.3511 2.51531 10.4178 2.54613C10.4844 2.57694 10.5435 2.62207 10.5908 2.6783C10.638 2.73453 10.6723 2.80049 10.6912 2.87147C10.7101 2.94245 10.7131 3.01672 10.7 3.089Z" fill="white"/>
+                                                  <path d="M3.5 12C4.05228 12 4.5 11.5523 4.5 11C4.5 10.4477 4.05228 10 3.5 10C2.94772 10 2.5 10.4477 2.5 11C2.5 11.5523 2.94772 12 3.5 12Z" fill="white"/>
+                                                  <path d="M8.5 12C9.05228 12 9.5 11.5523 9.5 11C9.5 10.4477 9.05228 10 8.5 10C7.94772 10 7.5 10.4477 7.5 11C7.5 11.5523 7.94772 12 8.5 12Z" fill="white"/>
+                                                </g>
+                                                <defs>
+                                                  <clipPath id="clip0_297_6495">
+                                                    <rect width="12" height="12" fill="white"/>
+                                                  </clipPath>
+                                                </defs>
+                                              </svg>
+                                            </a>
+                                    </div>
+                                </div>
+                                <div class="main__item">
+                                    <div class="main__item-image">
+                                        <img class="main__item-img" src="img/tires/img-1.png" alt="">
+                                    </div>
+                                    <h3 class="main__item-name">Шина Michelin Pilot Sport 4 205/55 R16 91W</h3>
+                                    <p class="main__item-descr">Артикул: 132832</p>
+                                    <p class="main__item-status status-stock">В наявності</p>
+                                    <div class="main__item-end">
+                                        <p class="main__item-price">4 900₴</p>
+                                        <a class="main__item-buy btn-hover" href="product-tire.html">Купити
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none">
+                                                <g clip-path="url(#clip0_297_6495)">
+                                                  <path d="M11.3565 2.0385C11.2159 1.86972 11.0398 1.73398 10.8408 1.64091C10.6418 1.54784 10.4247 1.49973 10.205 1.5H2.121L2.1 1.3245C2.05702 0.959709 1.88169 0.623366 1.60724 0.379239C1.3328 0.135112 0.978314 0.000170897 0.611 0L0.5 0C0.367392 0 0.240215 0.0526784 0.146447 0.146447C0.0526784 0.240215 0 0.367392 0 0.5C0 0.632608 0.0526784 0.759785 0.146447 0.853553C0.240215 0.947322 0.367392 1 0.5 1H0.611C0.733467 1.00002 0.851669 1.04498 0.943186 1.12636C1.0347 1.20774 1.09317 1.31987 1.1075 1.4415L1.7955 7.2915C1.86693 7.89989 2.15924 8.46089 2.61695 8.868C3.07467 9.27512 3.66593 9.50001 4.2785 9.5H9.5C9.63261 9.5 9.75979 9.44732 9.85355 9.35355C9.94732 9.25979 10 9.13261 10 9C10 8.86739 9.94732 8.74021 9.85355 8.64645C9.75979 8.55268 9.63261 8.5 9.5 8.5H4.2785C3.96903 8.49913 3.6674 8.40256 3.41497 8.22353C3.16254 8.0445 2.97166 7.79177 2.8685 7.5H8.8285C9.41465 7.50004 9.98217 7.29412 10.4319 6.91822C10.8817 6.54232 11.185 6.02035 11.289 5.4435L11.6815 3.2665C11.7207 3.0505 11.7119 2.82853 11.6557 2.61632C11.5995 2.4041 11.4974 2.20684 11.3565 2.0385ZM10.7 3.089L10.307 5.266C10.2446 5.6125 10.0622 5.926 9.79193 6.1516C9.52163 6.3772 9.18058 6.50053 8.8285 6.5H2.7095L2.239 2.5H10.205C10.2784 2.49956 10.3511 2.51531 10.4178 2.54613C10.4844 2.57694 10.5435 2.62207 10.5908 2.6783C10.638 2.73453 10.6723 2.80049 10.6912 2.87147C10.7101 2.94245 10.7131 3.01672 10.7 3.089Z" fill="white"/>
+                                                  <path d="M3.5 12C4.05228 12 4.5 11.5523 4.5 11C4.5 10.4477 4.05228 10 3.5 10C2.94772 10 2.5 10.4477 2.5 11C2.5 11.5523 2.94772 12 3.5 12Z" fill="white"/>
+                                                  <path d="M8.5 12C9.05228 12 9.5 11.5523 9.5 11C9.5 10.4477 9.05228 10 8.5 10C7.94772 10 7.5 10.4477 7.5 11C7.5 11.5523 7.94772 12 8.5 12Z" fill="white"/>
+                                                </g>
+                                                <defs>
+                                                  <clipPath id="clip0_297_6495">
+                                                    <rect width="12" height="12" fill="white"/>
+                                                  </clipPath>
+                                                </defs>
+                                              </svg>
+                                            </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main__pages">
+                            <div class="main__page">
+                                <div class="main__page-prev">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                        <g clip-path="url(#clip0_297_1597)">
+                                          <path d="M4.66675 7.99951C4.66675 8.62284 4.90942 9.20818 5.35008 9.64951L11.5441 15.9008C11.6094 15.9668 11.6954 15.9995 11.7808 15.9995C11.8654 15.9995 11.9508 15.9675 12.0154 15.9028C12.1461 15.7735 12.1474 15.5622 12.0181 15.4315L5.82275 9.17884C5.50609 8.86218 5.33342 8.44351 5.33342 7.99884C5.33342 7.55418 5.50675 7.13551 5.82142 6.82018L12.0181 0.56751C12.1474 0.436844 12.1461 0.22551 12.0154 0.0961769C11.8854 -0.0338231 11.6734 -0.0311564 11.5441 0.0988436L5.34875 6.35151C4.90942 6.79084 4.66675 7.37684 4.66675 8.00018V7.99951Z" fill="#111111"/>
+                                        </g>
+                                        <defs>
+                                          <clipPath id="clip0_297_1597">
+                                            <rect width="16" height="16" fill="white" transform="matrix(-1 0 0 1 16 0)"/>
+                                          </clipPath>
+                                        </defs>
+                                    </svg>
+                                </div>
+                                <div class="main__page-block">
+                                    <div class="main__page-item">1</div>
+                                    <div class="main__page-item active">2</div>
+                                    <div class="main__page-item">3</div>
+                                    <div class="main__page-item">4</div>
+                                    <div class="main__page-item">5</div>
+                                    <div class="main__page-item">6</div>
+                                    <div class="main__page-item">7</div>
+                                    <div class="main__page-item">...</div>
+                                    <div class="main__page-item">53</div>
+                                </div>
+                                <div class="main__page-next">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                        <g clip-path="url(#clip0_297_1595)">
+                                          <path d="M11.3332 7.99951C11.3332 8.62284 11.0906 9.20818 10.6499 9.64951L4.45591 15.9008C4.39058 15.9668 4.30458 15.9995 4.21925 15.9995C4.13458 15.9995 4.04925 15.9675 3.98458 15.9028C3.85391 15.7735 3.85258 15.5622 3.98191 15.4315L10.1772 9.17884C10.4939 8.86218 10.6666 8.44351 10.6666 7.99884C10.6666 7.55418 10.4932 7.13551 10.1786 6.82018L3.98191 0.56751C3.85258 0.436844 3.85391 0.22551 3.98458 0.0961769C4.11458 -0.0338231 4.32658 -0.0311564 4.45591 0.0988436L10.6512 6.35151C11.0906 6.79084 11.3332 7.37684 11.3332 8.00018V7.99951Z" fill="#111111"/>
+                                        </g>
+                                        <defs>
+                                          <clipPath id="clip0_297_1595">
+                                            <rect width="16" height="16" fill="white"/>
+                                          </clipPath>
+                                        </defs>
+                                      </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__beginning">
+                    <h3 class="footer__title">GOAUTO.UA</h3>
+                    <a class="footer__phone" href="tel:+380980808308">(098) 080-83-08</a>
+                    <p class="footer__schedule">пн-пт с 9:00 до 18:00</p>
+                    <div class="footer__social">
+                        <p class="footer__social-name">Ми у соц.мережах:</p>
+                        <div class="footer__social-block">
+                            <a class="footer__social-item" href="#">
+                                <img class="footer__social-img" src="img/icon/instagram.svg" alt="instagram">
+                            </a>
+                            <a class="footer__social-item" href="#">
+                                <img class="footer__social-img" src="img/icon/telegram.svg" alt="telegram">
+                            </a>
+                            <a class="footer__social-item" href="#">
+                                <img class="footer__social-img" src="img/icon/viber.svg" alt="viber">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__end">
+                    <div class="footer__end-block">
+                        <p class="footer__end-name">Меню</p>
+                        <a class="footer__end-link" href="index.html">Головна</a>
+                        <a class="footer__end-link" href="tires.html">Літні шини</a>
+                        <a class="footer__end-link" href="tires.html">Зимові шини</a>
+                        <a class="footer__end-link" href="discs.html">Диски</a>
+                    </div>
+                    <div class="footer__end-block">
+                        <p class="footer__end-name">Користувачам</p>
+                        <a class="footer__end-link" href="delivery-methods.html">Доставка та оплата</a>
+                        <p class="footer__end-link popup-btn">Консультація</p> 
+                        <p class="footer__end-link footer__link-mob popup-btn">Зворотній дзвінок</p>
+                    </div>
+                    <div class="footer__end-block">
+                        <p class="footer__end-name">Компанія</p>
+                        <a class="footer__end-link" href="contacts.html">Контакти</a>
+                        <a class="footer__end-link" href="tire-fitting.html">Шиномонтаж</a>
+                        <a class="footer__end-link footer__link-no--mob" href="painting-discs.html">Фарбування дисків</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__rights">
+                <p class="footer__rights-name">© 2020-2023, All Rights Reserved</p>
+                <a class="footer__rights-name footer__rights-end" href="privacy-policy.html">Політика конфіденційності</a>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <section class="popup">
+        <div class="container">
+            <div class="popup__inner">
+                <div class="popup__box">
+                    <h3 class="popup__title">Залиште заявку, ми зв'яжемося з Вами <span class="text-f6">протягом 30 хвилин.</span></h3>
+                    <form class="popup__form" action="#">
+                        <input class="popup__forn-input" type="text" placeholder="Імʼя та прізвище" required>
+                        <input class="popup__forn-input" type="tel" id="phone" pattern="^\+38\(0\d{2}\)-\d{3}-\d{2}-\d{2}$" placeholder="Номер телефону" required>
+                        <button class="popup__form-btn">Залишити заявку</button>
+                    </form>
+                    <p class="popup__descr">Натискаючи на кнопку, Ви приймаєте положення та згоду на обробку персональних даних.</p>
+                    <span class="popup__close">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                            <g clip-path="url(#clip0_297_1492)">
+                              <path d="M10.0605 8.99484L17.7804 1.27496C18.0682 0.97704 18.0599 0.502211 17.762 0.214452C17.4714 -0.0662757 17.0105 -0.0662757 16.7199 0.214452L8.99998 7.93434L1.2801 0.214452C0.982142 -0.073307 0.507349 -0.0650452 0.21959 0.232874C-0.0611378 0.523516 -0.0611378 0.984317 0.21959 1.27496L7.93948 8.99484L0.21959 16.7147C-0.0731966 17.0076 -0.0731966 17.4824 0.21959 17.7752C0.512482 18.068 0.98724 18.068 1.2801 17.7752L8.99998 10.0554L16.7199 17.7752C17.0128 18.068 17.4875 18.068 17.7804 17.7752C18.0732 17.4823 18.0732 17.0076 17.7804 16.7147L10.0605 8.99484Z" fill="#111111"/>
+                            </g>
+                            <defs>
+                              <clipPath id="clip0_297_1492">
+                                <rect width="18" height="18" fill="white"/>
+                              </clipPath>
+                            </defs>
+                        </svg>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="https://unpkg.com/imask"></script>
+    <script src="js/main.js"></script>
+    <script src="js/filter-product.js"></script>
+</body>
+</html>

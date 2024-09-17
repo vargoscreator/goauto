@@ -1,0 +1,1173 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>GoAuto</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body class="body">
+    
+
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="header__logo">
+                    <div class="header__burger">
+                        <span></span>
+                    </div>
+                    <a class="header__logo-name" href="index.html">GOAUTO.UA</a>
+                </div>
+                <div class="header__menu">
+                    <div class="header__menu-block--top">
+                        <div class="header__menu-item">
+                            <a class="header__menu-link active" href="index.html">Головна</a>
+                        </div>
+                        <div class="header__menu-item">
+                            <a class="header__menu-link" href="tires.html">Шини</a>
+                        </div>
+                        <div class="header__menu-item">
+                            <a class="header__menu-link" href="discs.html">Диски</a>
+                        </div>
+                        <div class="header__menu-item">
+                            <a class="header__menu-link" href="delivery-methods.html">Доставка та оплата</a>
+                        </div>
+                        <div class="header__menu-item header__menu-mobile">
+                            <p class="header__menu-link popup-btn">Консультація</p>
+                        </div>
+                        <div class="header__menu-item header__menu-mobile header__mobile-block--name">
+                            <p class="header__menu-link header__link-name active">Компанія</p>
+                            <div class="header__menu-mobile--block">
+                                <a class="header__mobile-link" href="contacts.html">Контакти</a>
+                                <a class="header__mobile-link" href="tire-fitting.html">Шиномонтаж</a>
+                                <a class="header__mobile-link" href="painting-discs.html">Фарбування дисків</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header__menu-item header__menu-item--block header__menu-no-mobile">
+                        <p class="header__menu-link header__menu-block--name">Клієнтам
+                            <svg xmlns="http://www.w3.org/2000/svg" width="8" height="5" viewBox="0 0 8 5" fill="none">
+                                <path d="M1.20493 0.5H6.79494C6.89382 0.500415 6.99036 0.530142 7.07236 0.585423C7.15435 0.640705 7.21811 0.719058 7.25557 0.810574C7.29303 0.90209 7.30252 1.00266 7.28282 1.09957C7.26313 1.19647 7.21515 1.28536 7.14494 1.355L4.35494 4.145C4.30845 4.19186 4.25315 4.22906 4.19222 4.25445C4.13129 4.27983 4.06594 4.2929 3.99994 4.2929C3.93393 4.2929 3.86858 4.27983 3.80765 4.25445C3.74672 4.22906 3.69142 4.19186 3.64494 4.145L0.854935 1.355C0.784724 1.28536 0.736739 1.19647 0.717046 1.09957C0.697354 1.00266 0.706838 0.90209 0.744301 0.810574C0.781764 0.719058 0.845522 0.640705 0.927514 0.585423C1.00951 0.530142 1.10605 0.500415 1.20493 0.5Z" fill="#111111"/>
+                            </svg>
+                        </p>
+                        <div class="header__menu-block">
+                            <div class="header__block-item">
+                                <a class="header__menu-link" href="tire-fitting.html">Шиномонтаж</a>
+                            </div>
+                            <div class="header__block-item">
+                                <a class="header__menu-link" href="painting-discs.html">Фарбування дисків</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header__menu-item header__menu-no-mobile">
+                        <a class="header__menu-link" href="contacts.html">Контакти</a>
+                    </div>
+
+                    <div class="header__menu-contants header__menu-mobile">
+                        <a class="header__contant-phone" href="tel:+380980808308">(098) 080-83-08</a>
+                        <p class="header__contant-schedule">пн-пт с 9:00 до 18:00</p>
+                        <div class="header__contant-social">
+                            <p class="header__social-name">Ми у соц.мережах:</p>
+                            <div class="header__social-block">
+                                <a class="header__social-item" href="#">
+                                    <img class="header__social-img" src="img/icon/instagram.svg" alt="instagram">
+                                </a>
+                                <a class="header__social-item" href="#">
+                                    <img class="header__social-img" src="img/icon/telegram.svg" alt="telegram">
+                                </a>
+                                <a class="header__social-item" href="#">
+                                    <img class="header__social-img" src="img/icon/viber.svg" alt="viber">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header__end">
+                    <div class="header__end-block">
+                        <a class="header__end-phone" href="tel:+380980808308">(098) 080-83-08</a>
+                        <button class="header__btn-advice">Замовити консультацію</button>
+                    </div>
+                    <a class="header__end-basket" href="basket.html">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
+                            <g clip-path="url(#clip0_297_6555)">
+                              <path d="M16.0884 2.88787C15.8891 2.64877 15.6397 2.45646 15.3578 2.32462C15.0758 2.19277 14.7683 2.12462 14.4571 2.125H3.00475L2.975 1.87637C2.91412 1.35959 2.66573 0.883102 2.27693 0.537255C1.88813 0.191408 1.38594 0.000242104 0.865583 0L0.708333 0C0.520472 0 0.340304 0.0746278 0.207466 0.207466C0.0746278 0.340304 0 0.520472 0 0.708333C0 0.896195 0.0746278 1.07636 0.207466 1.2092C0.340304 1.34204 0.520472 1.41667 0.708333 1.41667H0.865583C1.03908 1.41669 1.20653 1.48039 1.33618 1.59567C1.46583 1.71096 1.54866 1.86982 1.56896 2.04212L2.54362 10.3296C2.64481 11.1915 3.05892 11.9863 3.70735 12.563C4.35578 13.1398 5.1934 13.4584 6.06121 13.4583H13.4583C13.6462 13.4583 13.8264 13.3837 13.9592 13.2509C14.092 13.118 14.1667 12.9379 14.1667 12.75C14.1667 12.5621 14.092 12.382 13.9592 12.2491C13.8264 12.1163 13.6462 12.0417 13.4583 12.0417H6.06121C5.62279 12.0404 5.19548 11.9036 4.83787 11.65C4.48026 11.3964 4.20985 11.0383 4.06371 10.625H12.507C13.3374 10.625 14.1414 10.3333 14.7785 9.80081C15.4157 9.26829 15.8454 8.52883 15.9927 7.71162L16.5488 4.62754C16.6043 4.32155 16.5918 4.00709 16.5123 3.70645C16.4327 3.40581 16.288 3.12635 16.0884 2.88787Z" fill="#111111"/>
+                              <path d="M4.95866 17.0013C5.74106 17.0013 6.37533 16.367 6.37533 15.5846C6.37533 14.8022 5.74106 14.168 4.95866 14.168C4.17626 14.168 3.54199 14.8022 3.54199 15.5846C3.54199 16.367 4.17626 17.0013 4.95866 17.0013Z" fill="#111111"/>
+                              <path d="M12.0417 17.0013C12.8241 17.0013 13.4583 16.367 13.4583 15.5846C13.4583 14.8022 12.8241 14.168 12.0417 14.168C11.2593 14.168 10.625 14.8022 10.625 15.5846C10.625 16.367 11.2593 17.0013 12.0417 17.0013Z" fill="#111111"/>
+                            </g>
+                            <defs>
+                              <clipPath id="clip0_297_6555">
+                                <rect width="17" height="17" fill="white"/>
+                              </clipPath>
+                            </defs>
+                        </svg>
+
+                        <p class="header__basket-number active">3</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="main">
+        <div class="container">
+            <div class="main__inner">
+                <div class="main__block">
+                    <h3 class="main__title">Шини</h3>
+                    <form action="#">
+                        <div class="main__block-content">
+                            <div class="main__select-item filter-selector" action="#">
+                                <div class="main__select-categories">Ширина</div>
+                                <div class="main__select-categories--block filter-dropdown">
+                                    <div class="main__select-categories--item">
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>Ширина 1
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>Ширина 2
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>Ширина 3
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>Ширина 4
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>Ширина 5
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>Ширина 6
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>Ширина 7
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>Ширина 8
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>Ширина 9
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>Ширина 10
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>Ширина 11
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="main__select-item filter-selector" action="#">
+                                <div class="main__select-categories">Профіль</div>
+                                <div class="main__select-categories--block filter-dropdown">
+                                    <div class="main__select-categories--item">
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>Профіль 1
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>Профіль 2
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>Профіль 3
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>Профіль 4
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>Профіль 5
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>Профіль 6
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>Профіль 7
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>Профіль 8
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>Профіль 9
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>Профіль 10
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>Профіль 11
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="main__select-item filter-selector" action="#">
+                                <div class="main__select-categories">Діаметр</div>
+                                <div class="main__select-categories--block filter-dropdown">
+                                    <div class="main__select-categories--item">
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>Діаметр 1
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>Діаметр 2
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>Діаметр 3
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>Діаметр 4
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>Діаметр 5
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>Діаметр 6
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>Діаметр 7
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>Діаметр 8
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>Діаметр 9
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>Діаметр 10
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>Діаметр 11
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="main__select-item filter-selector" action="#">
+                                <div class="main__select-categories">Сезон</div>
+                                <div class="main__select-categories--block filter-dropdown">
+                                    <div class="main__select-categories--item">
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>1
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>2
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>3
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>4
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>5
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>6
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>7
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>8
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>9
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>10
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>11
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="main__select-item filter-selector" action="#">
+                                <div class="main__select-categories">Бренд</div>
+                                <div class="main__select-categories--block filter-dropdown">
+                                    <div class="main__select-categories--item">
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>Бренд 1
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>Бренд 2
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>Бренд 3
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>Бренд 4
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>Бренд 5
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>Бренд 6
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>Бренд 7
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>Бренд 8
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>Бренд 9
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>Бренд 10
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>Бренд 11
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="main__btn btn-hover" type="submit">Підібрати шини</button>
+                    </form>
+                </div>
+                <div class="main__block">
+                    <h3 class="main__title">Диски</h3>
+                    <form action="#">
+                        <div class="main__block-content">
+                            <div class="main__select-item filter-selector" action="#">
+                                <div class="main__select-categories">Розботовка</div>
+                                <div class="main__select-categories--block filter-dropdown">
+                                    <div class="main__select-categories--item">
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>1
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>2
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>3
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>4
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>5
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>6
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>7
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>8
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>9
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>10
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>11
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="main__select-item filter-selector" action="#">
+                                <div class="main__select-categories">Діаметр</div>
+                                <div class="main__select-categories--block filter-dropdown">
+                                    <div class="main__select-categories--item">
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>Діаметр 1
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>Діаметр 2
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>Діаметр 3
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>Діаметр 4
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>Діаметр 5
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>Діаметр 6
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>Діаметр 7
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>Діаметр 8
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>Діаметр 9
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>Діаметр 10
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>Діаметр 11
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="main__select-item filter-selector" action="#">
+                                <div class="main__select-categories">Виліт</div>
+                                <div class="main__select-categories--block filter-dropdown">
+                                    <div class="main__select-categories--item">
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>Виліт 1
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>Виліт 2
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>Виліт 3
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>Виліт 4
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>Виліт 5
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>Виліт 6
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>Виліт 7
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>Виліт 8
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>Виліт 9
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>Виліт 10
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>Виліт 11
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="main__select-item filter-selector" action="#">
+                                <div class="main__select-categories">Ширина</div>
+                                <div class="main__select-categories--block filter-dropdown">
+                                    <div class="main__select-categories--item">
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>Ширина 1
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>Ширина 2
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>Ширина 3
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>Ширина 4
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>Ширина 5
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>Ширина 6
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>Ширина 7
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>Ширина 8
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>Ширина 9
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>Ширина 10
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>Ширина 11
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="main__select-item filter-selector" action="#">
+                                <div class="main__select-categories">Ступиця</div>
+                                <div class="main__select-categories--block filter-dropdown">
+                                    <div class="main__select-categories--item">
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>Ступиця 1
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>Ступиця 2
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>Ступиця 3
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>Ступиця 4
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>Ступиця 5
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>Ступиця 6
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>Ступиця 7
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>Ступиця 8
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>Ступиця 9
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>Ступиця 10
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>Ступиця 11
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="main__select-item filter-selector">
+                                <div class="main__select-categories">Бренд</div>
+                                <div class="main__select-categories--block filter-dropdown">
+                                    <div class="main__select-categories--item">
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>Бренд 1
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>Бренд 2
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>Бренд 3
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>Бренд 4
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>Бренд 5
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>Бренд 6
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>Бренд 7
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>Бренд 8
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>Бренд 9
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>Бренд 10
+                                        </label>
+                                        <label class="filters__label">
+                                            <input type="checkbox" name="checkbox"  class="filters__checkbox">
+                                            <span class="checkmark"></span>Бренд 11
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="main__btn btn-hover" type="submit">Підібрати диски</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="advantages">
+        <div class="container">
+            <div class="advantages__inner">
+                <h3 class="advantages__title">Наші переваги</h3>
+                <div class="advantages__block">
+                    <div class="advantages__item">
+                        <div class="advantages__item-icon">
+                            <svg class="advantages__icon" xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35" fill="none">
+                                <g clip-path="url(#clip0_297_4421)">
+                                  <path d="M27.0976 3.12118L17.9612 0.0747262C17.662 -0.0249087 17.3386 -0.0249087 17.0395 0.0747262L7.90304 3.12118C6.4504 3.60372 5.18677 4.53177 4.29168 5.77347C3.3966 7.01517 2.91559 8.50737 2.917 10.0381V17.5004C2.917 28.5297 16.3337 34.6212 16.9082 34.8749C17.0946 34.9577 17.2964 35.0005 17.5003 35.0005C17.7043 35.0005 17.906 34.9577 18.0924 34.8749C18.667 34.6212 32.0837 28.5297 32.0837 17.5004V10.0381C32.0851 8.50737 31.6041 7.01517 30.709 5.77347C29.8139 4.53177 28.5503 3.60372 27.0976 3.12118ZM24.3807 14.171L18.1507 20.401C17.8958 20.6576 17.5924 20.8611 17.2582 20.9995C16.924 21.138 16.5656 21.2086 16.2039 21.2074H16.1557C15.7866 21.2018 15.4225 21.1213 15.0854 20.9709C14.7482 20.8205 14.4451 20.6033 14.1943 20.3324L10.8314 16.8324C10.6857 16.6973 10.5692 16.5339 10.489 16.3521C10.4088 16.1703 10.3666 15.9741 10.365 15.7754C10.3633 15.5768 10.4023 15.3799 10.4795 15.1968C10.5567 15.0137 10.6704 14.8484 10.8138 14.7108C10.9572 14.5733 11.1272 14.4666 11.3133 14.3971C11.4994 14.3276 11.6978 14.2969 11.8962 14.3069C12.0947 14.3168 12.2889 14.3672 12.4672 14.4549C12.6455 14.5426 12.8039 14.6659 12.9328 14.817L16.2053 18.2295L22.3128 12.1045C22.5879 11.8389 22.9562 11.6919 23.3386 11.6952C23.721 11.6985 24.0868 11.8519 24.3571 12.1223C24.6275 12.3927 24.7809 12.7584 24.7842 13.1408C24.7876 13.5232 24.6406 13.8916 24.3749 14.1666L24.3807 14.171Z" fill="#0671E0"/>
+                                </g>
+                                <defs>
+                                  <clipPath id="clip0_297_4421">
+                                    <rect width="35" height="35" fill="white"/>
+                                  </clipPath>
+                                </defs>
+                            </svg>
+                        </div>
+                        <p class="advantages__item-name">Гарантія якості</p>
+                        <p class="advantages__item-descr">Ми продаємо тільки високоякісні шини та диски, що відповідають усім необхідним стандартам і вимогам.</p>
+                    </div>
+                    <div class="advantages__item">
+                        <div class="advantages__item-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="27" height="35" viewBox="0 0 27 35" fill="none">
+                                <path d="M13.3333 0C7.79365 0 3.33333 4.46032 3.33333 10V11.6667C1.5 11.6667 0 13.1667 0 15V31.6667C0 33.5 1.5 35 3.33333 35H23.3333C25.1667 35 26.6667 33.5 26.6667 31.6667V15C26.6667 13.1667 25.1667 11.6667 23.3333 11.6667V10C23.3333 4.46032 18.873 0 13.3333 0ZM13.3333 3.33333C17.127 3.33333 20 6.20635 20 10V11.6667H6.66667V10C6.66667 6.20635 9.53968 3.33333 13.3333 3.33333ZM13.3333 20C15.1667 20 16.6667 21.5 16.6667 23.3333C16.6667 25.1667 15.1667 26.6667 13.3333 26.6667C11.5 26.6667 10 25.1667 10 23.3333C10 21.5 11.5 20 13.3333 20Z" fill="#0671E0"/>
+                              </svg>
+                        </div>
+                        <p class="advantages__item-name">Свій склад</p>
+                        <p class="advantages__item-descr">Ми маємо свій власний склад в Києві, де ви можете подивитись та одразу забрати свій товар.</p>
+                    </div>
+                    <div class="advantages__item">
+                        <div class="advantages__item-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="37" height="35" viewBox="0 0 37 35" fill="none">
+                                <path d="M3.68421 0C1.65789 0 0 1.65789 0 3.68421V25.7895L5.52632 20.2632H22.1053C24.1316 20.2632 25.7895 18.6053 25.7895 16.5789V3.68421C25.7895 1.65789 24.1316 0 22.1053 0H3.68421ZM29.4737 9.21053V16.5789C29.4737 20.6426 26.1689 23.9474 22.1053 23.9474H11.0526V25.7895C11.0526 27.8158 12.7105 29.4737 14.7368 29.4737H31.3158L36.8421 35V12.8947C36.8421 10.8684 35.1842 9.21053 33.1579 9.21053H29.4737Z" fill="#0671E0"/>
+                              </svg>
+                        </div>
+                        <p class="advantages__item-name">4.9/5 оцінка клієнтів</p>
+                        <p class="advantages__item-descr">Саме таку оцінку, поставили нам наші клієнти за якість продукції та обслуговування.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="recommendations">
+        <div class="container">
+            <div class="recommendations__inner">
+                <h3 class="recommendations__title">Рекомендовані товари</h3>
+                <div class="recommendations__slider">
+                    <div class="recommendations__item">
+                        <div class="recommendations__item-image">
+                            <img class="recommendations__item-img" src="img/recommendations/img-1.png" alt="">
+                        </div>
+                        <h3 class="recommendations__item-name">Шина Michelin Pilot Sport 4 205/55 R16 91W</h3>
+                        <p class="recommendations__item-descr">Артикул: 132832</p>
+                        <p class="recommendations__item-status status-stock">В наявності</p>
+                        <div class="recommendations__item-end">
+                            <p class="recommendations__item-price">4 900₴</p>
+                            <button class="recommendations__item-buy btn-hover">Купити
+                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none">
+                                    <g clip-path="url(#clip0_297_6495)">
+                                      <path d="M11.3565 2.0385C11.2159 1.86972 11.0398 1.73398 10.8408 1.64091C10.6418 1.54784 10.4247 1.49973 10.205 1.5H2.121L2.1 1.3245C2.05702 0.959709 1.88169 0.623366 1.60724 0.379239C1.3328 0.135112 0.978314 0.000170897 0.611 0L0.5 0C0.367392 0 0.240215 0.0526784 0.146447 0.146447C0.0526784 0.240215 0 0.367392 0 0.5C0 0.632608 0.0526784 0.759785 0.146447 0.853553C0.240215 0.947322 0.367392 1 0.5 1H0.611C0.733467 1.00002 0.851669 1.04498 0.943186 1.12636C1.0347 1.20774 1.09317 1.31987 1.1075 1.4415L1.7955 7.2915C1.86693 7.89989 2.15924 8.46089 2.61695 8.868C3.07467 9.27512 3.66593 9.50001 4.2785 9.5H9.5C9.63261 9.5 9.75979 9.44732 9.85355 9.35355C9.94732 9.25979 10 9.13261 10 9C10 8.86739 9.94732 8.74021 9.85355 8.64645C9.75979 8.55268 9.63261 8.5 9.5 8.5H4.2785C3.96903 8.49913 3.6674 8.40256 3.41497 8.22353C3.16254 8.0445 2.97166 7.79177 2.8685 7.5H8.8285C9.41465 7.50004 9.98217 7.29412 10.4319 6.91822C10.8817 6.54232 11.185 6.02035 11.289 5.4435L11.6815 3.2665C11.7207 3.0505 11.7119 2.82853 11.6557 2.61632C11.5995 2.4041 11.4974 2.20684 11.3565 2.0385ZM10.7 3.089L10.307 5.266C10.2446 5.6125 10.0622 5.926 9.79193 6.1516C9.52163 6.3772 9.18058 6.50053 8.8285 6.5H2.7095L2.239 2.5H10.205C10.2784 2.49956 10.3511 2.51531 10.4178 2.54613C10.4844 2.57694 10.5435 2.62207 10.5908 2.6783C10.638 2.73453 10.6723 2.80049 10.6912 2.87147C10.7101 2.94245 10.7131 3.01672 10.7 3.089Z" fill="white"/>
+                                      <path d="M3.5 12C4.05228 12 4.5 11.5523 4.5 11C4.5 10.4477 4.05228 10 3.5 10C2.94772 10 2.5 10.4477 2.5 11C2.5 11.5523 2.94772 12 3.5 12Z" fill="white"/>
+                                      <path d="M8.5 12C9.05228 12 9.5 11.5523 9.5 11C9.5 10.4477 9.05228 10 8.5 10C7.94772 10 7.5 10.4477 7.5 11C7.5 11.5523 7.94772 12 8.5 12Z" fill="white"/>
+                                    </g>
+                                    <defs>
+                                      <clipPath id="clip0_297_6495">
+                                        <rect width="12" height="12" fill="white"/>
+                                      </clipPath>
+                                    </defs>
+                                  </svg>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="recommendations__item">
+                        <div class="recommendations__item-image">
+                            <img class="recommendations__item-img" src="img/recommendations/img-1.png" alt="">
+                        </div>
+                        <h3 class="recommendations__item-name">Шина Michelin Pilot Sport 4 205/55 R16 91W</h3>
+                        <p class="recommendations__item-descr">Артикул: 132832</p>
+                        <p class="recommendations__item-status status-stock">В наявності</p>
+                        <div class="recommendations__item-end">
+                            <p class="recommendations__item-price">4 900₴</p>
+                            <button class="recommendations__item-buy btn-hover">Купити
+                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none">
+                                    <g clip-path="url(#clip0_297_6495)">
+                                      <path d="M11.3565 2.0385C11.2159 1.86972 11.0398 1.73398 10.8408 1.64091C10.6418 1.54784 10.4247 1.49973 10.205 1.5H2.121L2.1 1.3245C2.05702 0.959709 1.88169 0.623366 1.60724 0.379239C1.3328 0.135112 0.978314 0.000170897 0.611 0L0.5 0C0.367392 0 0.240215 0.0526784 0.146447 0.146447C0.0526784 0.240215 0 0.367392 0 0.5C0 0.632608 0.0526784 0.759785 0.146447 0.853553C0.240215 0.947322 0.367392 1 0.5 1H0.611C0.733467 1.00002 0.851669 1.04498 0.943186 1.12636C1.0347 1.20774 1.09317 1.31987 1.1075 1.4415L1.7955 7.2915C1.86693 7.89989 2.15924 8.46089 2.61695 8.868C3.07467 9.27512 3.66593 9.50001 4.2785 9.5H9.5C9.63261 9.5 9.75979 9.44732 9.85355 9.35355C9.94732 9.25979 10 9.13261 10 9C10 8.86739 9.94732 8.74021 9.85355 8.64645C9.75979 8.55268 9.63261 8.5 9.5 8.5H4.2785C3.96903 8.49913 3.6674 8.40256 3.41497 8.22353C3.16254 8.0445 2.97166 7.79177 2.8685 7.5H8.8285C9.41465 7.50004 9.98217 7.29412 10.4319 6.91822C10.8817 6.54232 11.185 6.02035 11.289 5.4435L11.6815 3.2665C11.7207 3.0505 11.7119 2.82853 11.6557 2.61632C11.5995 2.4041 11.4974 2.20684 11.3565 2.0385ZM10.7 3.089L10.307 5.266C10.2446 5.6125 10.0622 5.926 9.79193 6.1516C9.52163 6.3772 9.18058 6.50053 8.8285 6.5H2.7095L2.239 2.5H10.205C10.2784 2.49956 10.3511 2.51531 10.4178 2.54613C10.4844 2.57694 10.5435 2.62207 10.5908 2.6783C10.638 2.73453 10.6723 2.80049 10.6912 2.87147C10.7101 2.94245 10.7131 3.01672 10.7 3.089Z" fill="white"/>
+                                      <path d="M3.5 12C4.05228 12 4.5 11.5523 4.5 11C4.5 10.4477 4.05228 10 3.5 10C2.94772 10 2.5 10.4477 2.5 11C2.5 11.5523 2.94772 12 3.5 12Z" fill="white"/>
+                                      <path d="M8.5 12C9.05228 12 9.5 11.5523 9.5 11C9.5 10.4477 9.05228 10 8.5 10C7.94772 10 7.5 10.4477 7.5 11C7.5 11.5523 7.94772 12 8.5 12Z" fill="white"/>
+                                    </g>
+                                    <defs>
+                                      <clipPath id="clip0_297_6495">
+                                        <rect width="12" height="12" fill="white"/>
+                                      </clipPath>
+                                    </defs>
+                                  </svg>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="recommendations__item">
+                        <div class="recommendations__item-image">
+                            <img class="recommendations__item-img" src="img/recommendations/img-1.png" alt="">
+                        </div>
+                        <h3 class="recommendations__item-name">Шина Michelin Pilot Sport 4 205/55 R16 91W</h3>
+                        <p class="recommendations__item-descr">Артикул: 132832</p>
+                        <p class="recommendations__item-status status-stock">В наявності</p>
+                        <div class="recommendations__item-end">
+                            <p class="recommendations__item-price">4 900₴</p>
+                            <button class="recommendations__item-buy btn-hover">Купити
+                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none">
+                                    <g clip-path="url(#clip0_297_6495)">
+                                      <path d="M11.3565 2.0385C11.2159 1.86972 11.0398 1.73398 10.8408 1.64091C10.6418 1.54784 10.4247 1.49973 10.205 1.5H2.121L2.1 1.3245C2.05702 0.959709 1.88169 0.623366 1.60724 0.379239C1.3328 0.135112 0.978314 0.000170897 0.611 0L0.5 0C0.367392 0 0.240215 0.0526784 0.146447 0.146447C0.0526784 0.240215 0 0.367392 0 0.5C0 0.632608 0.0526784 0.759785 0.146447 0.853553C0.240215 0.947322 0.367392 1 0.5 1H0.611C0.733467 1.00002 0.851669 1.04498 0.943186 1.12636C1.0347 1.20774 1.09317 1.31987 1.1075 1.4415L1.7955 7.2915C1.86693 7.89989 2.15924 8.46089 2.61695 8.868C3.07467 9.27512 3.66593 9.50001 4.2785 9.5H9.5C9.63261 9.5 9.75979 9.44732 9.85355 9.35355C9.94732 9.25979 10 9.13261 10 9C10 8.86739 9.94732 8.74021 9.85355 8.64645C9.75979 8.55268 9.63261 8.5 9.5 8.5H4.2785C3.96903 8.49913 3.6674 8.40256 3.41497 8.22353C3.16254 8.0445 2.97166 7.79177 2.8685 7.5H8.8285C9.41465 7.50004 9.98217 7.29412 10.4319 6.91822C10.8817 6.54232 11.185 6.02035 11.289 5.4435L11.6815 3.2665C11.7207 3.0505 11.7119 2.82853 11.6557 2.61632C11.5995 2.4041 11.4974 2.20684 11.3565 2.0385ZM10.7 3.089L10.307 5.266C10.2446 5.6125 10.0622 5.926 9.79193 6.1516C9.52163 6.3772 9.18058 6.50053 8.8285 6.5H2.7095L2.239 2.5H10.205C10.2784 2.49956 10.3511 2.51531 10.4178 2.54613C10.4844 2.57694 10.5435 2.62207 10.5908 2.6783C10.638 2.73453 10.6723 2.80049 10.6912 2.87147C10.7101 2.94245 10.7131 3.01672 10.7 3.089Z" fill="white"/>
+                                      <path d="M3.5 12C4.05228 12 4.5 11.5523 4.5 11C4.5 10.4477 4.05228 10 3.5 10C2.94772 10 2.5 10.4477 2.5 11C2.5 11.5523 2.94772 12 3.5 12Z" fill="white"/>
+                                      <path d="M8.5 12C9.05228 12 9.5 11.5523 9.5 11C9.5 10.4477 9.05228 10 8.5 10C7.94772 10 7.5 10.4477 7.5 11C7.5 11.5523 7.94772 12 8.5 12Z" fill="white"/>
+                                    </g>
+                                    <defs>
+                                      <clipPath id="clip0_297_6495">
+                                        <rect width="12" height="12" fill="white"/>
+                                      </clipPath>
+                                    </defs>
+                                  </svg>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="recommendations__item">
+                        <div class="recommendations__item-image">
+                            <img class="recommendations__item-img" src="img/recommendations/img-1.png" alt="">
+                        </div>
+                        <h3 class="recommendations__item-name">Шина Michelin Pilot Sport 4 205/55 R16 91W</h3>
+                        <p class="recommendations__item-descr">Артикул: 132832</p>
+                        <p class="recommendations__item-status status-stock">В наявності</p>
+                        <div class="recommendations__item-end">
+                            <p class="recommendations__item-price">4 900₴</p>
+                            <button class="recommendations__item-buy btn-hover">Купити
+                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none">
+                                    <g clip-path="url(#clip0_297_6495)">
+                                      <path d="M11.3565 2.0385C11.2159 1.86972 11.0398 1.73398 10.8408 1.64091C10.6418 1.54784 10.4247 1.49973 10.205 1.5H2.121L2.1 1.3245C2.05702 0.959709 1.88169 0.623366 1.60724 0.379239C1.3328 0.135112 0.978314 0.000170897 0.611 0L0.5 0C0.367392 0 0.240215 0.0526784 0.146447 0.146447C0.0526784 0.240215 0 0.367392 0 0.5C0 0.632608 0.0526784 0.759785 0.146447 0.853553C0.240215 0.947322 0.367392 1 0.5 1H0.611C0.733467 1.00002 0.851669 1.04498 0.943186 1.12636C1.0347 1.20774 1.09317 1.31987 1.1075 1.4415L1.7955 7.2915C1.86693 7.89989 2.15924 8.46089 2.61695 8.868C3.07467 9.27512 3.66593 9.50001 4.2785 9.5H9.5C9.63261 9.5 9.75979 9.44732 9.85355 9.35355C9.94732 9.25979 10 9.13261 10 9C10 8.86739 9.94732 8.74021 9.85355 8.64645C9.75979 8.55268 9.63261 8.5 9.5 8.5H4.2785C3.96903 8.49913 3.6674 8.40256 3.41497 8.22353C3.16254 8.0445 2.97166 7.79177 2.8685 7.5H8.8285C9.41465 7.50004 9.98217 7.29412 10.4319 6.91822C10.8817 6.54232 11.185 6.02035 11.289 5.4435L11.6815 3.2665C11.7207 3.0505 11.7119 2.82853 11.6557 2.61632C11.5995 2.4041 11.4974 2.20684 11.3565 2.0385ZM10.7 3.089L10.307 5.266C10.2446 5.6125 10.0622 5.926 9.79193 6.1516C9.52163 6.3772 9.18058 6.50053 8.8285 6.5H2.7095L2.239 2.5H10.205C10.2784 2.49956 10.3511 2.51531 10.4178 2.54613C10.4844 2.57694 10.5435 2.62207 10.5908 2.6783C10.638 2.73453 10.6723 2.80049 10.6912 2.87147C10.7101 2.94245 10.7131 3.01672 10.7 3.089Z" fill="white"/>
+                                      <path d="M3.5 12C4.05228 12 4.5 11.5523 4.5 11C4.5 10.4477 4.05228 10 3.5 10C2.94772 10 2.5 10.4477 2.5 11C2.5 11.5523 2.94772 12 3.5 12Z" fill="white"/>
+                                      <path d="M8.5 12C9.05228 12 9.5 11.5523 9.5 11C9.5 10.4477 9.05228 10 8.5 10C7.94772 10 7.5 10.4477 7.5 11C7.5 11.5523 7.94772 12 8.5 12Z" fill="white"/>
+                                    </g>
+                                    <defs>
+                                      <clipPath id="clip0_297_6495">
+                                        <rect width="12" height="12" fill="white"/>
+                                      </clipPath>
+                                    </defs>
+                                  </svg>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="recommendations__item">
+                        <div class="recommendations__item-image">
+                            <img class="recommendations__item-img" src="img/recommendations/img-1.png" alt="">
+                        </div>
+                        <h3 class="recommendations__item-name">Шина Michelin Pilot Sport 4 205/55 R16 91W</h3>
+                        <p class="recommendations__item-descr">Артикул: 132832</p>
+                        <p class="recommendations__item-status status-stock">В наявності</p>
+                        <div class="recommendations__item-end">
+                            <p class="recommendations__item-price">4 900₴</p>
+                            <button class="recommendations__item-buy btn-hover">Купити
+                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none">
+                                    <g clip-path="url(#clip0_297_6495)">
+                                      <path d="M11.3565 2.0385C11.2159 1.86972 11.0398 1.73398 10.8408 1.64091C10.6418 1.54784 10.4247 1.49973 10.205 1.5H2.121L2.1 1.3245C2.05702 0.959709 1.88169 0.623366 1.60724 0.379239C1.3328 0.135112 0.978314 0.000170897 0.611 0L0.5 0C0.367392 0 0.240215 0.0526784 0.146447 0.146447C0.0526784 0.240215 0 0.367392 0 0.5C0 0.632608 0.0526784 0.759785 0.146447 0.853553C0.240215 0.947322 0.367392 1 0.5 1H0.611C0.733467 1.00002 0.851669 1.04498 0.943186 1.12636C1.0347 1.20774 1.09317 1.31987 1.1075 1.4415L1.7955 7.2915C1.86693 7.89989 2.15924 8.46089 2.61695 8.868C3.07467 9.27512 3.66593 9.50001 4.2785 9.5H9.5C9.63261 9.5 9.75979 9.44732 9.85355 9.35355C9.94732 9.25979 10 9.13261 10 9C10 8.86739 9.94732 8.74021 9.85355 8.64645C9.75979 8.55268 9.63261 8.5 9.5 8.5H4.2785C3.96903 8.49913 3.6674 8.40256 3.41497 8.22353C3.16254 8.0445 2.97166 7.79177 2.8685 7.5H8.8285C9.41465 7.50004 9.98217 7.29412 10.4319 6.91822C10.8817 6.54232 11.185 6.02035 11.289 5.4435L11.6815 3.2665C11.7207 3.0505 11.7119 2.82853 11.6557 2.61632C11.5995 2.4041 11.4974 2.20684 11.3565 2.0385ZM10.7 3.089L10.307 5.266C10.2446 5.6125 10.0622 5.926 9.79193 6.1516C9.52163 6.3772 9.18058 6.50053 8.8285 6.5H2.7095L2.239 2.5H10.205C10.2784 2.49956 10.3511 2.51531 10.4178 2.54613C10.4844 2.57694 10.5435 2.62207 10.5908 2.6783C10.638 2.73453 10.6723 2.80049 10.6912 2.87147C10.7101 2.94245 10.7131 3.01672 10.7 3.089Z" fill="white"/>
+                                      <path d="M3.5 12C4.05228 12 4.5 11.5523 4.5 11C4.5 10.4477 4.05228 10 3.5 10C2.94772 10 2.5 10.4477 2.5 11C2.5 11.5523 2.94772 12 3.5 12Z" fill="white"/>
+                                      <path d="M8.5 12C9.05228 12 9.5 11.5523 9.5 11C9.5 10.4477 9.05228 10 8.5 10C7.94772 10 7.5 10.4477 7.5 11C7.5 11.5523 7.94772 12 8.5 12Z" fill="white"/>
+                                    </g>
+                                    <defs>
+                                      <clipPath id="clip0_297_6495">
+                                        <rect width="12" height="12" fill="white"/>
+                                      </clipPath>
+                                    </defs>
+                                  </svg>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="recommendations__item">
+                        <div class="recommendations__item-image">
+                            <img class="recommendations__item-img" src="img/recommendations/img-1.png" alt="">
+                        </div>
+                        <h3 class="recommendations__item-name">Шина Michelin Pilot Sport 4 205/55 R16 91W</h3>
+                        <p class="recommendations__item-descr">Артикул: 132832</p>
+                        <p class="recommendations__item-status status-stock">В наявності</p>
+                        <div class="recommendations__item-end">
+                            <p class="recommendations__item-price">4 900₴</p>
+                            <button class="recommendations__item-buy btn-hover">Купити
+                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none">
+                                    <g clip-path="url(#clip0_297_6495)">
+                                      <path d="M11.3565 2.0385C11.2159 1.86972 11.0398 1.73398 10.8408 1.64091C10.6418 1.54784 10.4247 1.49973 10.205 1.5H2.121L2.1 1.3245C2.05702 0.959709 1.88169 0.623366 1.60724 0.379239C1.3328 0.135112 0.978314 0.000170897 0.611 0L0.5 0C0.367392 0 0.240215 0.0526784 0.146447 0.146447C0.0526784 0.240215 0 0.367392 0 0.5C0 0.632608 0.0526784 0.759785 0.146447 0.853553C0.240215 0.947322 0.367392 1 0.5 1H0.611C0.733467 1.00002 0.851669 1.04498 0.943186 1.12636C1.0347 1.20774 1.09317 1.31987 1.1075 1.4415L1.7955 7.2915C1.86693 7.89989 2.15924 8.46089 2.61695 8.868C3.07467 9.27512 3.66593 9.50001 4.2785 9.5H9.5C9.63261 9.5 9.75979 9.44732 9.85355 9.35355C9.94732 9.25979 10 9.13261 10 9C10 8.86739 9.94732 8.74021 9.85355 8.64645C9.75979 8.55268 9.63261 8.5 9.5 8.5H4.2785C3.96903 8.49913 3.6674 8.40256 3.41497 8.22353C3.16254 8.0445 2.97166 7.79177 2.8685 7.5H8.8285C9.41465 7.50004 9.98217 7.29412 10.4319 6.91822C10.8817 6.54232 11.185 6.02035 11.289 5.4435L11.6815 3.2665C11.7207 3.0505 11.7119 2.82853 11.6557 2.61632C11.5995 2.4041 11.4974 2.20684 11.3565 2.0385ZM10.7 3.089L10.307 5.266C10.2446 5.6125 10.0622 5.926 9.79193 6.1516C9.52163 6.3772 9.18058 6.50053 8.8285 6.5H2.7095L2.239 2.5H10.205C10.2784 2.49956 10.3511 2.51531 10.4178 2.54613C10.4844 2.57694 10.5435 2.62207 10.5908 2.6783C10.638 2.73453 10.6723 2.80049 10.6912 2.87147C10.7101 2.94245 10.7131 3.01672 10.7 3.089Z" fill="white"/>
+                                      <path d="M3.5 12C4.05228 12 4.5 11.5523 4.5 11C4.5 10.4477 4.05228 10 3.5 10C2.94772 10 2.5 10.4477 2.5 11C2.5 11.5523 2.94772 12 3.5 12Z" fill="white"/>
+                                      <path d="M8.5 12C9.05228 12 9.5 11.5523 9.5 11C9.5 10.4477 9.05228 10 8.5 10C7.94772 10 7.5 10.4477 7.5 11C7.5 11.5523 7.94772 12 8.5 12Z" fill="white"/>
+                                    </g>
+                                    <defs>
+                                      <clipPath id="clip0_297_6495">
+                                        <rect width="12" height="12" fill="white"/>
+                                      </clipPath>
+                                    </defs>
+                                  </svg>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="recommendations__item">
+                        <div class="recommendations__item-image">
+                            <img class="recommendations__item-img" src="img/recommendations/img-1.png" alt="">
+                        </div>
+                        <h3 class="recommendations__item-name">Шина Michelin Pilot Sport 4 205/55 R16 91W</h3>
+                        <p class="recommendations__item-descr">Артикул: 132832</p>
+                        <p class="recommendations__item-status status-stock">В наявності</p>
+                        <div class="recommendations__item-end">
+                            <p class="recommendations__item-price">4 900₴</p>
+                            <button class="recommendations__item-buy btn-hover">Купити
+                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none">
+                                    <g clip-path="url(#clip0_297_6495)">
+                                      <path d="M11.3565 2.0385C11.2159 1.86972 11.0398 1.73398 10.8408 1.64091C10.6418 1.54784 10.4247 1.49973 10.205 1.5H2.121L2.1 1.3245C2.05702 0.959709 1.88169 0.623366 1.60724 0.379239C1.3328 0.135112 0.978314 0.000170897 0.611 0L0.5 0C0.367392 0 0.240215 0.0526784 0.146447 0.146447C0.0526784 0.240215 0 0.367392 0 0.5C0 0.632608 0.0526784 0.759785 0.146447 0.853553C0.240215 0.947322 0.367392 1 0.5 1H0.611C0.733467 1.00002 0.851669 1.04498 0.943186 1.12636C1.0347 1.20774 1.09317 1.31987 1.1075 1.4415L1.7955 7.2915C1.86693 7.89989 2.15924 8.46089 2.61695 8.868C3.07467 9.27512 3.66593 9.50001 4.2785 9.5H9.5C9.63261 9.5 9.75979 9.44732 9.85355 9.35355C9.94732 9.25979 10 9.13261 10 9C10 8.86739 9.94732 8.74021 9.85355 8.64645C9.75979 8.55268 9.63261 8.5 9.5 8.5H4.2785C3.96903 8.49913 3.6674 8.40256 3.41497 8.22353C3.16254 8.0445 2.97166 7.79177 2.8685 7.5H8.8285C9.41465 7.50004 9.98217 7.29412 10.4319 6.91822C10.8817 6.54232 11.185 6.02035 11.289 5.4435L11.6815 3.2665C11.7207 3.0505 11.7119 2.82853 11.6557 2.61632C11.5995 2.4041 11.4974 2.20684 11.3565 2.0385ZM10.7 3.089L10.307 5.266C10.2446 5.6125 10.0622 5.926 9.79193 6.1516C9.52163 6.3772 9.18058 6.50053 8.8285 6.5H2.7095L2.239 2.5H10.205C10.2784 2.49956 10.3511 2.51531 10.4178 2.54613C10.4844 2.57694 10.5435 2.62207 10.5908 2.6783C10.638 2.73453 10.6723 2.80049 10.6912 2.87147C10.7101 2.94245 10.7131 3.01672 10.7 3.089Z" fill="white"/>
+                                      <path d="M3.5 12C4.05228 12 4.5 11.5523 4.5 11C4.5 10.4477 4.05228 10 3.5 10C2.94772 10 2.5 10.4477 2.5 11C2.5 11.5523 2.94772 12 3.5 12Z" fill="white"/>
+                                      <path d="M8.5 12C9.05228 12 9.5 11.5523 9.5 11C9.5 10.4477 9.05228 10 8.5 10C7.94772 10 7.5 10.4477 7.5 11C7.5 11.5523 7.94772 12 8.5 12Z" fill="white"/>
+                                    </g>
+                                    <defs>
+                                      <clipPath id="clip0_297_6495">
+                                        <rect width="12" height="12" fill="white"/>
+                                      </clipPath>
+                                    </defs>
+                                  </svg>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="recommendations__item">
+                        <div class="recommendations__item-image">
+                            <img class="recommendations__item-img" src="img/recommendations/img-1.png" alt="">
+                        </div>
+                        <h3 class="recommendations__item-name">Шина Michelin Pilot Sport 4 205/55 R16 91W</h3>
+                        <p class="recommendations__item-descr">Артикул: 132832</p>
+                        <p class="recommendations__item-status status-stock">В наявності</p>
+                        <div class="recommendations__item-end">
+                            <p class="recommendations__item-price">4 900₴</p>
+                            <button class="recommendations__item-buy btn-hover">Купити
+                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none">
+                                    <g clip-path="url(#clip0_297_6495)">
+                                      <path d="M11.3565 2.0385C11.2159 1.86972 11.0398 1.73398 10.8408 1.64091C10.6418 1.54784 10.4247 1.49973 10.205 1.5H2.121L2.1 1.3245C2.05702 0.959709 1.88169 0.623366 1.60724 0.379239C1.3328 0.135112 0.978314 0.000170897 0.611 0L0.5 0C0.367392 0 0.240215 0.0526784 0.146447 0.146447C0.0526784 0.240215 0 0.367392 0 0.5C0 0.632608 0.0526784 0.759785 0.146447 0.853553C0.240215 0.947322 0.367392 1 0.5 1H0.611C0.733467 1.00002 0.851669 1.04498 0.943186 1.12636C1.0347 1.20774 1.09317 1.31987 1.1075 1.4415L1.7955 7.2915C1.86693 7.89989 2.15924 8.46089 2.61695 8.868C3.07467 9.27512 3.66593 9.50001 4.2785 9.5H9.5C9.63261 9.5 9.75979 9.44732 9.85355 9.35355C9.94732 9.25979 10 9.13261 10 9C10 8.86739 9.94732 8.74021 9.85355 8.64645C9.75979 8.55268 9.63261 8.5 9.5 8.5H4.2785C3.96903 8.49913 3.6674 8.40256 3.41497 8.22353C3.16254 8.0445 2.97166 7.79177 2.8685 7.5H8.8285C9.41465 7.50004 9.98217 7.29412 10.4319 6.91822C10.8817 6.54232 11.185 6.02035 11.289 5.4435L11.6815 3.2665C11.7207 3.0505 11.7119 2.82853 11.6557 2.61632C11.5995 2.4041 11.4974 2.20684 11.3565 2.0385ZM10.7 3.089L10.307 5.266C10.2446 5.6125 10.0622 5.926 9.79193 6.1516C9.52163 6.3772 9.18058 6.50053 8.8285 6.5H2.7095L2.239 2.5H10.205C10.2784 2.49956 10.3511 2.51531 10.4178 2.54613C10.4844 2.57694 10.5435 2.62207 10.5908 2.6783C10.638 2.73453 10.6723 2.80049 10.6912 2.87147C10.7101 2.94245 10.7131 3.01672 10.7 3.089Z" fill="white"/>
+                                      <path d="M3.5 12C4.05228 12 4.5 11.5523 4.5 11C4.5 10.4477 4.05228 10 3.5 10C2.94772 10 2.5 10.4477 2.5 11C2.5 11.5523 2.94772 12 3.5 12Z" fill="white"/>
+                                      <path d="M8.5 12C9.05228 12 9.5 11.5523 9.5 11C9.5 10.4477 9.05228 10 8.5 10C7.94772 10 7.5 10.4477 7.5 11C7.5 11.5523 7.94772 12 8.5 12Z" fill="white"/>
+                                    </g>
+                                    <defs>
+                                      <clipPath id="clip0_297_6495">
+                                        <rect width="12" height="12" fill="white"/>
+                                      </clipPath>
+                                    </defs>
+                                  </svg>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="recommendations__item">
+                        <div class="recommendations__item-image">
+                            <img class="recommendations__item-img" src="img/recommendations/img-1.png" alt="">
+                        </div>
+                        <h3 class="recommendations__item-name">Шина Michelin Pilot Sport 4 205/55 R16 91W</h3>
+                        <p class="recommendations__item-descr">Артикул: 132832</p>
+                        <p class="recommendations__item-status status-stock">В наявності</p>
+                        <div class="recommendations__item-end">
+                            <p class="recommendations__item-price">4 900₴</p>
+                            <button class="recommendations__item-buy btn-hover">Купити
+                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none">
+                                    <g clip-path="url(#clip0_297_6495)">
+                                      <path d="M11.3565 2.0385C11.2159 1.86972 11.0398 1.73398 10.8408 1.64091C10.6418 1.54784 10.4247 1.49973 10.205 1.5H2.121L2.1 1.3245C2.05702 0.959709 1.88169 0.623366 1.60724 0.379239C1.3328 0.135112 0.978314 0.000170897 0.611 0L0.5 0C0.367392 0 0.240215 0.0526784 0.146447 0.146447C0.0526784 0.240215 0 0.367392 0 0.5C0 0.632608 0.0526784 0.759785 0.146447 0.853553C0.240215 0.947322 0.367392 1 0.5 1H0.611C0.733467 1.00002 0.851669 1.04498 0.943186 1.12636C1.0347 1.20774 1.09317 1.31987 1.1075 1.4415L1.7955 7.2915C1.86693 7.89989 2.15924 8.46089 2.61695 8.868C3.07467 9.27512 3.66593 9.50001 4.2785 9.5H9.5C9.63261 9.5 9.75979 9.44732 9.85355 9.35355C9.94732 9.25979 10 9.13261 10 9C10 8.86739 9.94732 8.74021 9.85355 8.64645C9.75979 8.55268 9.63261 8.5 9.5 8.5H4.2785C3.96903 8.49913 3.6674 8.40256 3.41497 8.22353C3.16254 8.0445 2.97166 7.79177 2.8685 7.5H8.8285C9.41465 7.50004 9.98217 7.29412 10.4319 6.91822C10.8817 6.54232 11.185 6.02035 11.289 5.4435L11.6815 3.2665C11.7207 3.0505 11.7119 2.82853 11.6557 2.61632C11.5995 2.4041 11.4974 2.20684 11.3565 2.0385ZM10.7 3.089L10.307 5.266C10.2446 5.6125 10.0622 5.926 9.79193 6.1516C9.52163 6.3772 9.18058 6.50053 8.8285 6.5H2.7095L2.239 2.5H10.205C10.2784 2.49956 10.3511 2.51531 10.4178 2.54613C10.4844 2.57694 10.5435 2.62207 10.5908 2.6783C10.638 2.73453 10.6723 2.80049 10.6912 2.87147C10.7101 2.94245 10.7131 3.01672 10.7 3.089Z" fill="white"/>
+                                      <path d="M3.5 12C4.05228 12 4.5 11.5523 4.5 11C4.5 10.4477 4.05228 10 3.5 10C2.94772 10 2.5 10.4477 2.5 11C2.5 11.5523 2.94772 12 3.5 12Z" fill="white"/>
+                                      <path d="M8.5 12C9.05228 12 9.5 11.5523 9.5 11C9.5 10.4477 9.05228 10 8.5 10C7.94772 10 7.5 10.4477 7.5 11C7.5 11.5523 7.94772 12 8.5 12Z" fill="white"/>
+                                    </g>
+                                    <defs>
+                                      <clipPath id="clip0_297_6495">
+                                        <rect width="12" height="12" fill="white"/>
+                                      </clipPath>
+                                    </defs>
+                                  </svg>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="recommendations__item">
+                        <div class="recommendations__item-image">
+                            <img class="recommendations__item-img" src="img/recommendations/img-1.png" alt="">
+                        </div>
+                        <h3 class="recommendations__item-name">Шина Michelin Pilot Sport 4 205/55 R16 91W</h3>
+                        <p class="recommendations__item-descr">Артикул: 132832</p>
+                        <p class="recommendations__item-status status-stock">В наявності</p>
+                        <div class="recommendations__item-end">
+                            <p class="recommendations__item-price">4 900₴</p>
+                            <button class="recommendations__item-buy btn-hover">Купити
+                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none">
+                                    <g clip-path="url(#clip0_297_6495)">
+                                      <path d="M11.3565 2.0385C11.2159 1.86972 11.0398 1.73398 10.8408 1.64091C10.6418 1.54784 10.4247 1.49973 10.205 1.5H2.121L2.1 1.3245C2.05702 0.959709 1.88169 0.623366 1.60724 0.379239C1.3328 0.135112 0.978314 0.000170897 0.611 0L0.5 0C0.367392 0 0.240215 0.0526784 0.146447 0.146447C0.0526784 0.240215 0 0.367392 0 0.5C0 0.632608 0.0526784 0.759785 0.146447 0.853553C0.240215 0.947322 0.367392 1 0.5 1H0.611C0.733467 1.00002 0.851669 1.04498 0.943186 1.12636C1.0347 1.20774 1.09317 1.31987 1.1075 1.4415L1.7955 7.2915C1.86693 7.89989 2.15924 8.46089 2.61695 8.868C3.07467 9.27512 3.66593 9.50001 4.2785 9.5H9.5C9.63261 9.5 9.75979 9.44732 9.85355 9.35355C9.94732 9.25979 10 9.13261 10 9C10 8.86739 9.94732 8.74021 9.85355 8.64645C9.75979 8.55268 9.63261 8.5 9.5 8.5H4.2785C3.96903 8.49913 3.6674 8.40256 3.41497 8.22353C3.16254 8.0445 2.97166 7.79177 2.8685 7.5H8.8285C9.41465 7.50004 9.98217 7.29412 10.4319 6.91822C10.8817 6.54232 11.185 6.02035 11.289 5.4435L11.6815 3.2665C11.7207 3.0505 11.7119 2.82853 11.6557 2.61632C11.5995 2.4041 11.4974 2.20684 11.3565 2.0385ZM10.7 3.089L10.307 5.266C10.2446 5.6125 10.0622 5.926 9.79193 6.1516C9.52163 6.3772 9.18058 6.50053 8.8285 6.5H2.7095L2.239 2.5H10.205C10.2784 2.49956 10.3511 2.51531 10.4178 2.54613C10.4844 2.57694 10.5435 2.62207 10.5908 2.6783C10.638 2.73453 10.6723 2.80049 10.6912 2.87147C10.7101 2.94245 10.7131 3.01672 10.7 3.089Z" fill="white"/>
+                                      <path d="M3.5 12C4.05228 12 4.5 11.5523 4.5 11C4.5 10.4477 4.05228 10 3.5 10C2.94772 10 2.5 10.4477 2.5 11C2.5 11.5523 2.94772 12 3.5 12Z" fill="white"/>
+                                      <path d="M8.5 12C9.05228 12 9.5 11.5523 9.5 11C9.5 10.4477 9.05228 10 8.5 10C7.94772 10 7.5 10.4477 7.5 11C7.5 11.5523 7.94772 12 8.5 12Z" fill="white"/>
+                                    </g>
+                                    <defs>
+                                      <clipPath id="clip0_297_6495">
+                                        <rect width="12" height="12" fill="white"/>
+                                      </clipPath>
+                                    </defs>
+                                  </svg>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="recommendations__item">
+                        <div class="recommendations__item-image">
+                            <img class="recommendations__item-img" src="img/recommendations/img-1.png" alt="">
+                        </div>
+                        <h3 class="recommendations__item-name">Шина Michelin Pilot Sport 4 205/55 R16 91W</h3>
+                        <p class="recommendations__item-descr">Артикул: 132832</p>
+                        <p class="recommendations__item-status status-stock">В наявності</p>
+                        <div class="recommendations__item-end">
+                            <p class="recommendations__item-price">4 900₴</p>
+                            <button class="recommendations__item-buy btn-hover">Купити
+                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none">
+                                    <g clip-path="url(#clip0_297_6495)">
+                                      <path d="M11.3565 2.0385C11.2159 1.86972 11.0398 1.73398 10.8408 1.64091C10.6418 1.54784 10.4247 1.49973 10.205 1.5H2.121L2.1 1.3245C2.05702 0.959709 1.88169 0.623366 1.60724 0.379239C1.3328 0.135112 0.978314 0.000170897 0.611 0L0.5 0C0.367392 0 0.240215 0.0526784 0.146447 0.146447C0.0526784 0.240215 0 0.367392 0 0.5C0 0.632608 0.0526784 0.759785 0.146447 0.853553C0.240215 0.947322 0.367392 1 0.5 1H0.611C0.733467 1.00002 0.851669 1.04498 0.943186 1.12636C1.0347 1.20774 1.09317 1.31987 1.1075 1.4415L1.7955 7.2915C1.86693 7.89989 2.15924 8.46089 2.61695 8.868C3.07467 9.27512 3.66593 9.50001 4.2785 9.5H9.5C9.63261 9.5 9.75979 9.44732 9.85355 9.35355C9.94732 9.25979 10 9.13261 10 9C10 8.86739 9.94732 8.74021 9.85355 8.64645C9.75979 8.55268 9.63261 8.5 9.5 8.5H4.2785C3.96903 8.49913 3.6674 8.40256 3.41497 8.22353C3.16254 8.0445 2.97166 7.79177 2.8685 7.5H8.8285C9.41465 7.50004 9.98217 7.29412 10.4319 6.91822C10.8817 6.54232 11.185 6.02035 11.289 5.4435L11.6815 3.2665C11.7207 3.0505 11.7119 2.82853 11.6557 2.61632C11.5995 2.4041 11.4974 2.20684 11.3565 2.0385ZM10.7 3.089L10.307 5.266C10.2446 5.6125 10.0622 5.926 9.79193 6.1516C9.52163 6.3772 9.18058 6.50053 8.8285 6.5H2.7095L2.239 2.5H10.205C10.2784 2.49956 10.3511 2.51531 10.4178 2.54613C10.4844 2.57694 10.5435 2.62207 10.5908 2.6783C10.638 2.73453 10.6723 2.80049 10.6912 2.87147C10.7101 2.94245 10.7131 3.01672 10.7 3.089Z" fill="white"/>
+                                      <path d="M3.5 12C4.05228 12 4.5 11.5523 4.5 11C4.5 10.4477 4.05228 10 3.5 10C2.94772 10 2.5 10.4477 2.5 11C2.5 11.5523 2.94772 12 3.5 12Z" fill="white"/>
+                                      <path d="M8.5 12C9.05228 12 9.5 11.5523 9.5 11C9.5 10.4477 9.05228 10 8.5 10C7.94772 10 7.5 10.4477 7.5 11C7.5 11.5523 7.94772 12 8.5 12Z" fill="white"/>
+                                    </g>
+                                    <defs>
+                                      <clipPath id="clip0_297_6495">
+                                        <rect width="12" height="12" fill="white"/>
+                                      </clipPath>
+                                    </defs>
+                                  </svg>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="recommendations__item">
+                        <div class="recommendations__item-image">
+                            <img class="recommendations__item-img" src="img/recommendations/img-1.png" alt="">
+                        </div>
+                        <h3 class="recommendations__item-name">Шина Michelin Pilot Sport 4 205/55 R16 91W</h3>
+                        <p class="recommendations__item-descr">Артикул: 132832</p>
+                        <p class="recommendations__item-status status-stock">В наявності</p>
+                        <div class="recommendations__item-end">
+                            <p class="recommendations__item-price">4 900₴</p>
+                            <button class="recommendations__item-buy btn-hover">Купити
+                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none">
+                                    <g clip-path="url(#clip0_297_6495)">
+                                      <path d="M11.3565 2.0385C11.2159 1.86972 11.0398 1.73398 10.8408 1.64091C10.6418 1.54784 10.4247 1.49973 10.205 1.5H2.121L2.1 1.3245C2.05702 0.959709 1.88169 0.623366 1.60724 0.379239C1.3328 0.135112 0.978314 0.000170897 0.611 0L0.5 0C0.367392 0 0.240215 0.0526784 0.146447 0.146447C0.0526784 0.240215 0 0.367392 0 0.5C0 0.632608 0.0526784 0.759785 0.146447 0.853553C0.240215 0.947322 0.367392 1 0.5 1H0.611C0.733467 1.00002 0.851669 1.04498 0.943186 1.12636C1.0347 1.20774 1.09317 1.31987 1.1075 1.4415L1.7955 7.2915C1.86693 7.89989 2.15924 8.46089 2.61695 8.868C3.07467 9.27512 3.66593 9.50001 4.2785 9.5H9.5C9.63261 9.5 9.75979 9.44732 9.85355 9.35355C9.94732 9.25979 10 9.13261 10 9C10 8.86739 9.94732 8.74021 9.85355 8.64645C9.75979 8.55268 9.63261 8.5 9.5 8.5H4.2785C3.96903 8.49913 3.6674 8.40256 3.41497 8.22353C3.16254 8.0445 2.97166 7.79177 2.8685 7.5H8.8285C9.41465 7.50004 9.98217 7.29412 10.4319 6.91822C10.8817 6.54232 11.185 6.02035 11.289 5.4435L11.6815 3.2665C11.7207 3.0505 11.7119 2.82853 11.6557 2.61632C11.5995 2.4041 11.4974 2.20684 11.3565 2.0385ZM10.7 3.089L10.307 5.266C10.2446 5.6125 10.0622 5.926 9.79193 6.1516C9.52163 6.3772 9.18058 6.50053 8.8285 6.5H2.7095L2.239 2.5H10.205C10.2784 2.49956 10.3511 2.51531 10.4178 2.54613C10.4844 2.57694 10.5435 2.62207 10.5908 2.6783C10.638 2.73453 10.6723 2.80049 10.6912 2.87147C10.7101 2.94245 10.7131 3.01672 10.7 3.089Z" fill="white"/>
+                                      <path d="M3.5 12C4.05228 12 4.5 11.5523 4.5 11C4.5 10.4477 4.05228 10 3.5 10C2.94772 10 2.5 10.4477 2.5 11C2.5 11.5523 2.94772 12 3.5 12Z" fill="white"/>
+                                      <path d="M8.5 12C9.05228 12 9.5 11.5523 9.5 11C9.5 10.4477 9.05228 10 8.5 10C7.94772 10 7.5 10.4477 7.5 11C7.5 11.5523 7.94772 12 8.5 12Z" fill="white"/>
+                                    </g>
+                                    <defs>
+                                      <clipPath id="clip0_297_6495">
+                                        <rect width="12" height="12" fill="white"/>
+                                      </clipPath>
+                                    </defs>
+                                  </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="partners">
+        <div class="container">
+            <div class="partners__inner">
+                <h3 class="partners__title">Партнери</h3>
+                <div class="partners__slider">
+                    <img class="partners__item" src="img/partners/Michelin.svg" alt="">
+                    <img class="partners__item" src="img/partners/Michelin.svg" alt="">
+                    <img class="partners__item" src="img/partners/Michelin.svg" alt="">
+                    <img class="partners__item" src="img/partners/Michelin.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="advice">
+        <div class="container">
+            <div class="advice__inner">
+                <h3 class="advice__title">Консультація</h3>
+                <p class="advice__descr">Якщо у Вас виникли питання, чи потрібна консультація, залиште заявку і ми звʼяжемося з Вами найближчим часом.</p>
+                <button class="advice__btn btn-hover">Залишити заявку</button>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__beginning">
+                    <h3 class="footer__title">GOAUTO.UA</h3>
+                    <a class="footer__phone" href="tel:+380980808308">(098) 080-83-08</a>
+                    <p class="footer__schedule">пн-пт с 9:00 до 18:00</p>
+                    <div class="footer__social">
+                        <p class="footer__social-name">Ми у соц.мережах:</p>
+                        <div class="footer__social-block">
+                            <a class="footer__social-item" href="#">
+                                <img class="footer__social-img" src="img/icon/instagram.svg" alt="instagram">
+                            </a>
+                            <a class="footer__social-item" href="#">
+                                <img class="footer__social-img" src="img/icon/telegram.svg" alt="telegram">
+                            </a>
+                            <a class="footer__social-item" href="#">
+                                <img class="footer__social-img" src="img/icon/viber.svg" alt="viber">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__end">
+                    <div class="footer__end-block">
+                        <p class="footer__end-name">Меню</p>
+                        <a class="footer__end-link" href="index.html">Головна</a>
+                        <a class="footer__end-link" href="tires.html">Літні шини</a>
+                        <a class="footer__end-link" href="tires.html">Зимові шини</a>
+                        <a class="footer__end-link" href="discs.html">Диски</a>
+                    </div>
+                    <div class="footer__end-block">
+                        <p class="footer__end-name">Користувачам</p>
+                        <a class="footer__end-link" href="delivery-methods.html">Доставка та оплата</a>
+                        <p class="footer__end-link popup-btn">Консультація</p> 
+                        <p class="footer__end-link footer__link-mob popup-btn">Зворотній дзвінок</p>
+                    </div>
+                    <div class="footer__end-block">
+                        <p class="footer__end-name">Компанія</p>
+                        <a class="footer__end-link" href="contacts.html">Контакти</a>
+                        <a class="footer__end-link" href="tire-fitting.html">Шиномонтаж</a>
+                        <a class="footer__end-link footer__link-no--mob" href="painting-discs.html">Фарбування дисків</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__rights">
+                <p class="footer__rights-name">© 2020-2023, All Rights Reserved</p>
+                <a class="footer__rights-name footer__rights-end" href="privacy-policy.html">Політика конфіденційності</a>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <section class="popup">
+        <div class="container">
+            <div class="popup__inner">
+                <div class="popup__box">
+                    <h3 class="popup__title">Залиште заявку, ми зв'яжемося з Вами <span class="text-f6">протягом 30 хвилин.</span></h3>
+                    <form class="popup__form" action="#">
+                        <input class="popup__forn-input" type="text" placeholder="Імʼя та прізвище" required>
+                        <input class="popup__forn-input" type="tel" id="phone" pattern="^\+38\(0\d{2}\)-\d{3}-\d{2}-\d{2}$" placeholder="Номер телефону" required>
+                        <button class="popup__form-btn">Залишити заявку</button>
+                    </form>
+                    <p class="popup__descr">Натискаючи на кнопку, Ви приймаєте положення та згоду на обробку персональних даних.</p>
+                    <span class="popup__close">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                            <g clip-path="url(#clip0_297_1492)">
+                              <path d="M10.0605 8.99484L17.7804 1.27496C18.0682 0.97704 18.0599 0.502211 17.762 0.214452C17.4714 -0.0662757 17.0105 -0.0662757 16.7199 0.214452L8.99998 7.93434L1.2801 0.214452C0.982142 -0.073307 0.507349 -0.0650452 0.21959 0.232874C-0.0611378 0.523516 -0.0611378 0.984317 0.21959 1.27496L7.93948 8.99484L0.21959 16.7147C-0.0731966 17.0076 -0.0731966 17.4824 0.21959 17.7752C0.512482 18.068 0.98724 18.068 1.2801 17.7752L8.99998 10.0554L16.7199 17.7752C17.0128 18.068 17.4875 18.068 17.7804 17.7752C18.0732 17.4823 18.0732 17.0076 17.7804 16.7147L10.0605 8.99484Z" fill="#111111"/>
+                            </g>
+                            <defs>
+                              <clipPath id="clip0_297_1492">
+                                <rect width="18" height="18" fill="white"/>
+                              </clipPath>
+                            </defs>
+                        </svg>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="https://unpkg.com/imask"></script>
+    <script src="js/main.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

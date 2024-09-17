@@ -1,0 +1,138 @@
+.main{
+    margin-top: 150px;
+    margin-bottom: 60px;
+}
+
+.main__links{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    gap: 5px;
+    margin-bottom: 15px;
+}
+.main__link{
+    color: var(--color-l-gray);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 14px */
+}
+.main__link.active{
+    color: var(--color-black);
+}
+
+.main__title{
+    color: var(--color-black);
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 30px;
+}
+.main__delivery-name{
+    color: var(--color-black);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    margin-bottom: 4px;
+}
+.main__delivery-descr{
+    color: var(--color-black);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 25.6px */
+    margin-left: -15px;
+}
+.main__block-delivery{
+    margin-bottom: 60px;
+}
+.main__block-delivery{
+    padding-left: 28px;
+    color: var(--color-black);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%; /* 28.8px */
+}
+.main__block-delivery li + li {
+    margin-top: 30px;
+}
+.main__block-delivery li:last-child{
+    max-width: 660px;
+}
+
+.main__payment-name{
+    color: var(--color-black);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%; /* 28.8px */
+}
+.main__block-payment{
+    padding-left: 28px;
+    color: var(--color-black);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+}
+.main__block-payment li + li {
+    margin-top: 14px;
+}
+
+.main__block-payment li::marker,
+.main__block-delivery li::marker{
+    font-size: 13px;
+}
+
+
+
+
+
+@media (max-width: 940px){
+    .main {
+        margin-top: 102px;
+        margin-bottom: 30px;
+    }
+
+
+}
+@media (max-width: 571px){
+    .main__link{
+        font-size: 12px;
+    }
+    .main__links{
+        margin-bottom: 20px;
+    }
+    .main {
+        margin-top: 80px;
+        margin-bottom: 30px;
+    }
+
+    .main__title{
+        font-size: 24px;
+    }
+    .main__delivery-name{
+        font-size: 16px;
+    }
+    .main__delivery-descr{
+        font-size: 12px;
+    }
+    .main__payment-name{
+        font-size: 16px;
+    }
+    .main__block-delivery li + li {
+        margin-top: 25px;
+    }
+    .main__block-payment li + li {
+        margin-top: 16px;
+    }
+}
